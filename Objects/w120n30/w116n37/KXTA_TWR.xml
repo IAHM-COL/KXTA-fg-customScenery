@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+  <path>KXTA_TWR.ac</path>
+  
+  <effect>
+    <inherits-from>/Effects/model-combined-deferred</inherits-from>
+    <parameters>
+      <lightmap-enabled type="int">1</lightmap-enabled>
+      <texture n="3">
+	<image>KXTA_TWR_ligthmap.png</image>
+      </texture>
+    </parameters>
+     <object-name>TowerA</object-name>
+     <object-name>TowerWindows</object-name>
+     <object-name>TowerWindowsBody</object-name>
+  </effect>
+  
+</PropertyList>
