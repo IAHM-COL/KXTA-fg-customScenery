@@ -14,4 +14,9 @@
     <object-name>Cube</object-name>
   </effect>
   
+  <animation>
+    <object-name>Cube</object-name>
+    <enable-hot type="bool">false</enable-hot>
+  </animation>
+
 </PropertyList>

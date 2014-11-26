@@ -11,9 +11,17 @@
 	<image>KXTA_TWR_ligthmap.png</image>
       </texture>
     </parameters>
-     <object-name>TowerA</object-name>
-     <object-name>TowerWindows</object-name>
-     <object-name>TowerWindowsBody</object-name>
+    <object-name>TowerA</object-name>
+    <object-name>TowerWindows</object-name>
+    <object-name>TowerWindowsBody</object-name>
   </effect>
-  
+
+  <animation>
+    <object-name>TowerA</object-name>
+    <object-name>TowerWindows</object-name>
+    <object-name>TowerWindowsBody</object-name>
+    <enable-hot type="bool">false</enable-hot>
+  </animation>
+
+
 </PropertyList>
