@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <runway>
+    <ils>
+      <lon>-115.78681</lon>
+      <lat>37.21161</lat>
+      <rwy>32</rwy>
+      <hdg-deg>319.901</hdg-deg>
+      <elev-m>1371.3155</elev-m>
+      <nav-id>IXTA</nav-id>
+    </ils>
+  </runway>
+  <runway>
+    <ils>
+      <lon>-115.82716060</lon>
+      <lat>37.28516263</lat>
+      <rwy>14R</rwy>
+      <hdg-deg>141.10</hdg-deg>
+      <elev-m>1367.8236</elev-m>
+      <nav-id>IXTB</nav-id>
+    </ils>
+  </runway>
+  <runway>
+    <ils>
+       <lon>-115.78194558</lon>
+      <lat>37.21273652</lat>
+      <rwy>32L</rwy>
+      <hdg-deg>319.901</hdg-deg>
+      <elev-m>1374.2997</elev-m>
+      <nav-id>IXTC</nav-id>
+    </ils>
+  </runway>
+</PropertyList>
