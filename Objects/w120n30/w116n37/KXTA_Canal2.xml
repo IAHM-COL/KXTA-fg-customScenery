@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+  <path>KXTA_Canal2.ac</path>
+  
+  <effect>
+    <inherits-from>/Effects/model-combined-deferred</inherits-from>
+    <parameters>
+      <lightmap-enabled type="int">1</lightmap-enabled>
+      <texture n="3">
+	<image>KXTA_Canal2_lightmap.png</image>
+      </texture>
+    </parameters>
+    <object-name>Canal2Body</object-name>
+    <object-name>Canal2Windows</object-name>
+    <object-name>Curve</object-name>
+  </effect>
+  
+</PropertyList>
