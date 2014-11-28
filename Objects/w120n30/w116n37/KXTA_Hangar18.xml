@@ -16,11 +16,4 @@
     <object-name>Hangar18WindowsSmall</object-name>
   </effect>
 
-  <animation>
-    <object-name>Hangar18Body</object-name>
-    <object-name>Hangar18WindowsLarge</object-name>
-    <object-name>Hangar18WindowsSmall</object-name>
-    <enable-hot type="bool">false</enable-hot>
-  </animation>
-  
 </PropertyList>

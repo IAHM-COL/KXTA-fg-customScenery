@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
 
-  <path>KXTA_Hangar16.ac</path>
+  <path>KXTA_dinning.ac</path>
   
   <effect>
     <inherits-from>/Effects/model-combined-deferred</inherits-from>
     <parameters>
       <lightmap-enabled type="int">1</lightmap-enabled>
       <texture n="3">
-	<image>KXTA_Hangar16_lightmap.png</image>
+	<image>KXTA_dinning_ligthmap.png</image>
       </texture>
     </parameters>
-    <object-name>Cube</object-name>
+    <object-name>DinningBody</object-name>
+    <object-name>DinningRoof</object-name>
+    <object-name>DinningWindows</object-name>
   </effect>
   
 </PropertyList>
