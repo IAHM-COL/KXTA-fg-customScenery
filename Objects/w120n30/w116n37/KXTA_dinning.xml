@@ -11,9 +11,7 @@
 	<image>KXTA_dinning_ligthmap.png</image>
       </texture>
     </parameters>
-    <object-name>DinningBody</object-name>
-    <object-name>DinningRoof</object-name>
-    <object-name>DinningWindows</object-name>
+    <object-name>Dinning</object-name>
   </effect>
   
 </PropertyList>

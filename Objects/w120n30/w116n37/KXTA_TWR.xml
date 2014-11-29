@@ -12,8 +12,6 @@
       </texture>
     </parameters>
     <object-name>TowerA</object-name>
-    <object-name>TowerWindows</object-name>
-    <object-name>TowerWindowsBody</object-name>
   </effect>
 
 </PropertyList>

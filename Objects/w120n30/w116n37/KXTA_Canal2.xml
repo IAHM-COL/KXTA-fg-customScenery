@@ -11,9 +11,7 @@
 	<image>KXTA_Canal2_lightmap.png</image>
       </texture>
     </parameters>
-    <object-name>Canal2Body</object-name>
-    <object-name>Canal2Windows</object-name>
-    <object-name>jwockys</object-name>
+    <object-name>Canal2</object-name>
   </effect>
   
 </PropertyList>

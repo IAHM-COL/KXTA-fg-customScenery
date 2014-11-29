@@ -11,10 +11,7 @@
 	<image>KXTA_basesupply_lightmap.png</image>
       </texture>
     </parameters>
-    <object-name>USA Tour</object-name>
-    <object-name>base</object-name>
-    <object-name>baseRoof</object-name>
-    <object-name>baseWindows</object-name>
+    <object-name>Base</object-name>
   </effect>
   
 </PropertyList>

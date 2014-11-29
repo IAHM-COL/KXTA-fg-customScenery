@@ -11,9 +11,7 @@
 	<image>KXTA_Hangar18_lightmap.png</image>
       </texture>
     </parameters>
-    <object-name>Hangar18Body</object-name>
-    <object-name>Hangar18WindowsLarge</object-name>
-    <object-name>Hangar18WindowsSmall</object-name>
+    <object-name>Hangar18</object-name>
   </effect>
 
 </PropertyList>
