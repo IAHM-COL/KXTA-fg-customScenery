@@ -116,6 +116,11 @@ OBJECT_SHARED Models/Airport/egkk_light_mast.xml 	-115.81049349 	37.22830866 	13
 OBJECT_SHARED Models/Airport/egkk_light_mast.xml 	-115.81126165 	37.23006019 	1359.8827
 #Hangar18 big lamp
 OBJECT_SHARED Models/Airport/eddf_lamp_t2.xml		-115.81286989	37.23552186	1360.9230
+#Hangar20 
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml -115.81214906 37.23297563 1360.4827 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml -115.81326710 37.23292836 1361.8680 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml -115.81340107 37.23434017 1360.9902 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml -115.81224145 37.23440486 1360.7279 0.0 0.0 -0.0
 
 #MODELS
 OBJECT_STATIC	KXTA_Canal2.xml		-115.81380651	37.24393382	1357.6689	94
