@@ -6,7 +6,7 @@ name "Blender_export__KXTA_Hangar18.ac"
 kids 1
 OBJECT poly
 name "Hangar18"
-loc 0.0000000 4.3732128 0.0000000
+loc 0.0000000 3.9278812 0.0000000
 texture "KXTA_Hangar18.png"
 texrep 1 1
 numvert 360

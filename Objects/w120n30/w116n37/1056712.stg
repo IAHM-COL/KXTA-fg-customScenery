@@ -136,6 +136,8 @@ OBJECT_STATIC   KXTA_Hangar2.xml  -115.81334160 37.23135013 1363.3579 93.0
 					
 #DEFLECTOR					
 OBJECT_SHARED	Models/Airport/eddf_blast_deflector_generic.xml	-115.81271134	37.23861555	1359.4819	182.4
+OBJECT_SHARED   Models/Airport/eddf_blast_deflector_generic.xml -115.81383984	37.23734390 	1360.3227 	93.3
+
 #FENCE
 #southwest					
 OBJECT_SHARED	Models/Boundaries/Fence_80.xml	-115.81710593	37.23711529	1361.6164	94
