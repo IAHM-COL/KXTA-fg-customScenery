@@ -8,7 +8,7 @@
     <parameters>
       <lightmap-enabled type="int">1</lightmap-enabled>
       <texture n="3">
-	<image>KXTA_Truman2_lightmap.png</image>
+	<image>KXTA_Truman2_ligthmap.png</image>
       </texture>
     </parameters>
     <object-name>Truman2</object-name>
