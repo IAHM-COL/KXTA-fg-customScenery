@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+  <path>737-Janet.ac</path>
+  
+  <effect>
+    <inherits-from>/Effects/model-combined-deferred</inherits-from>
+    <parameters>
+      <lightmap-enabled type="int">1</lightmap-enabled>
+      <texture n="3">
+	<image>737-Janet_lightmap.png</image>
+      </texture>
+    </parameters>
+    <object-name>Antenna</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>HStab</object-name>
+    <object-name>LeftEngine</object-name>
+    <object-name>LeftGearStrut</object-name>
+    <object-name>LeftWheel1</object-name>
+    <object-name>LeftWheel2</object-name>
+    <object-name>NoseGearDoor</object-name>
+    <object-name>NoseGearStrut</object-name>
+    <object-name>NoseWheel1</object-name>
+    <object-name>NoseWheel2</object-name>
+    <object-name>RigthEngine</object-name>
+    <object-name>RigthGearStrut</object-name>
+    <object-name>RightInnerVG</object-name>
+    <object-name>RightInnerWheel1</object-name>
+    <object-name>RightInnerWheel2</object-name>
+    <object-name>VStab</object-name>
+    <object-name>Wings</object-name>
+  </effect>
+
+</PropertyList>
