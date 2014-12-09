@@ -8,7 +8,18 @@
   </frequencies>
 
   <parkingList>
-    <Parking index="0"
+    <!-- 3D Static model using it 
+    <Parking index="62"
+	     type="apron"
+	     name="H"
+	     number="1"
+	     lat="N37 14.876"
+	     lon="W115 48.735"
+	     heading="184"
+	     radius="40"
+	     airlineCodes="USAF" />
+    -->
+     <Parking index="0"
 	     type="apron"
 	     name="H"
 	     number="2"
@@ -53,6 +64,7 @@
 	     heading="55.5"
 	     radius="40"
 	     airlineCodes="USAF" />
+    <!-- Static 3d model uses it
     <Parking index="5"
 	     type="apron"
 	     name="RedHat"
@@ -62,6 +74,7 @@
 	     heading="55.5"
 	     radius="40"
 	     airlineCodes="USAF" />
+    -->
     <Parking index="6"
 	     type="apron"
 	     name="RedHat"
@@ -269,6 +282,7 @@
 	     heading="184"
 	     radius="40"
 	     airlineCodes="USAF" />
+    <!-- Static 3d model uses it
     <Parking index="29"
 	     type="apron"
 	     name="KingAir"
@@ -278,6 +292,7 @@
 	     heading="184"
 	     radius="40"
 	     airlineCodes="USAF" />
+    -->
     <Parking index="30"
 	     type="apron"
 	     name="KingAir"
@@ -314,6 +329,7 @@
 	     heading="92"
 	     radius="40"
 	     airlineCodes="USAF" />
+    <!-- Static 3d model uses it
     <Parking index="34"
 	     type="apron"
 	     name="Janet"
@@ -323,6 +339,7 @@
 	     heading="92"
 	     radius="40"
 	     airlineCodes="USAF" />
+    -->
     <Parking index="35"
 	     type="apron"
 	     name="Janet"
