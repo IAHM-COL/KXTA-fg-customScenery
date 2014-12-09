@@ -254,7 +254,7 @@
 	     lon="W115 48.72"
 	     heading="4"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <Parking index="26"
 	     type="apron"
 	     name="KingAir"
@@ -263,7 +263,7 @@
 	     lon="W115 48.734"
 	     heading="4"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWWW" />
     <Parking index="27"
 	     type="apron"
 	     name="KingAir"
@@ -272,7 +272,7 @@
 	     lon="W115 48.744"
 	     heading="4"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <Parking index="28"
 	     type="apron"
 	     name="KingAir"
@@ -281,7 +281,7 @@
 	     lon="W115 48.745"
 	     heading="184"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <!-- Static 3d model uses it
     <Parking index="29"
 	     type="apron"
@@ -291,7 +291,7 @@
 	     lon="W115 48.732"
 	     heading="184"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     -->
     <Parking index="30"
 	     type="apron"
@@ -301,7 +301,7 @@
 	     lon="W115 48.719"
 	     heading="184"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <Parking index="31"
 	     type="apron"
 	     name="Janet"
@@ -310,7 +310,7 @@
 	     lon="W115 48.723"
 	     heading="92"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <Parking index="32"
 	     type="apron"
 	     name="Janet"
@@ -319,7 +319,7 @@
 	     lon="W115 48.722"
 	     heading="92"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <Parking index="33"
 	     type="apron"
 	     name="Janet"
@@ -328,7 +328,7 @@
 	     lon="W115 48.715"
 	     heading="92"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <!-- Static 3d model uses it
     <Parking index="34"
 	     type="apron"
@@ -338,7 +338,7 @@
 	     lon="W115 48.713"
 	     heading="92"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     -->
     <Parking index="35"
 	     type="apron"
@@ -348,7 +348,7 @@
 	     lon="W115 48.711"
 	     heading="92"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <Parking index="36"
 	     type="apron"
 	     name="Janet"
@@ -357,7 +357,7 @@
 	     lon="W115 48.706"
 	     heading="92"
 	     radius="40"
-	     airlineCodes="USAF" />
+	     airlineCodes="USAF,WWW" />
     <Parking index="37"
 	     type="apron"
 	     name="Hangar18"
