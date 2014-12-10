@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PropertyList>
 
-  <path>737-Janet.ac</path>
+  <path>737_WWW.ac</path>
   
   <effect>
     <inherits-from>/Effects/model-combined-deferred</inherits-from>
     <parameters>
       <lightmap-enabled type="int">1</lightmap-enabled>
       <texture n="3">
-	<image>737-Janet_lightmap.png</image>
+	<image>737_WWW_lightmap.png</image>
       </texture>
     </parameters>
-    <object-name>737-Janet</object-name>
+    <object-name>737_WWW</object-name>
   </effect>
 
 </PropertyList>
