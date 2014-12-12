@@ -246,6 +246,7 @@
 	     heading="272"
 	     radius="40"
 	     airlineCodes="USAF" />
+    <!-- Static 3d model uses it
     <Parking index="25"
 	     type="apron"
 	     name="KingAir"
@@ -255,6 +256,7 @@
 	     heading="4"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
+    -->
     <Parking index="26"
 	     type="apron"
 	     name="KingAir"
@@ -282,7 +284,6 @@
 	     heading="184"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
-    <!-- Static 3d model uses it
     <Parking index="29"
 	     type="apron"
 	     name="KingAir"
@@ -292,7 +293,6 @@
 	     heading="184"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
-    -->
     <Parking index="30"
 	     type="apron"
 	     name="KingAir"
