@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+  <path>KXTA_terminalmain.ac</path>
+  
+  <effect>
+    <inherits-from>/Effects/model-combined-deferred</inherits-from>
+    <parameters>
+      <lightmap-enabled type="int">1</lightmap-enabled>
+      <texture n="3">
+	<image>KXTA_terminalmain_lightmap.png</image>
+      </texture>
+    </parameters>
+    <object-name>TerminalMain</object-name>
+  </effect>
+  
+</PropertyList>
