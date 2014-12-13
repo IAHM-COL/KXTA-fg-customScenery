@@ -64,7 +64,6 @@
 	     heading="55.5"
 	     radius="40"
 	     airlineCodes="USAF" />
-    <!-- Static 3d model uses it
     <Parking index="5"
 	     type="apron"
 	     name="RedHat"
@@ -74,7 +73,6 @@
 	     heading="55.5"
 	     radius="40"
 	     airlineCodes="USAF" />
-    -->
     <Parking index="6"
 	     type="apron"
 	     name="RedHat"
