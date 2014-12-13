@@ -244,7 +244,6 @@
 	     heading="272"
 	     radius="40"
 	     airlineCodes="USAF" />
-    <!-- Static 3d model uses it
     <Parking index="25"
 	     type="apron"
 	     name="KingAir"
@@ -254,7 +253,7 @@
 	     heading="4"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
-    -->
+    <!-- Static 3d model uses it
     <Parking index="26"
 	     type="apron"
 	     name="KingAir"
@@ -273,13 +272,14 @@
 	     heading="4"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
+    -->
     <Parking index="28"
 	     type="apron"
 	     name="KingAir"
 	     number="4"
 	     lat="N37 14.427"
 	     lon="W115 48.745"
-	     heading="184"
+	     heading="180.75"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
     <Parking index="29"
@@ -288,7 +288,7 @@
 	     number="5"
 	     lat="N37 14.427"
 	     lon="W115 48.732"
-	     heading="184"
+	     heading="180.75"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
     <Parking index="30"
@@ -297,7 +297,7 @@
 	     number="6"
 	     lat="N37 14.427"
 	     lon="W115 48.719"
-	     heading="184"
+	     heading="180.75"
 	     radius="40"
 	     airlineCodes="USAF,WWW" />
     <Parking index="31"
