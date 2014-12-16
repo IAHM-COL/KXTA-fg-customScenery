@@ -23,7 +23,7 @@ NOTE: You may want to make a backup of the file here before.
 
 B. To revert this change, 
 
-Replace the apt.dat.gz file with the copy you had made in step A.
+Replace the file, example nav.dat.gz file with the copy you had made in step A.
 If you did not make a copy, you can use the apt.dat.gz.orig file provided in
 this package, reverting to the changes up to DEC2014. Simply rename this
-file as apt.dat.gz and then copy it in the directory indicated in Step A
+file as nav.dat.gz and then copy it in the directory indicated in Step A
