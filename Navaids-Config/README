@@ -1,0 +1,29 @@
+Info:
+The files in this directory update the Flightgear Scenery Database and include
+VORs, Fixes, and other navaids that may be inaccurate due to not being FAA
+published.
+
+These are very useful for Fly-simulation in the Homey Area, and therefore we
+distribute them here
+
+Instructions:
+
+A. To patch flightgear the original file must be replaced. This is achieved by
+overwriting the respective file in your Flightgear Data path
+
+Example
+
+Patching nav.dat.gz
+
+Overwrite the file 
+$FG_Data/Navaids/nav.dat.gz in your flightgear distribution with the one found
+in this custom scenery package in Navaids-Config/Navaids directory
+
+NOTE: You may want to make a backup of the file here before.
+
+B. To revert this change, 
+
+Replace the apt.dat.gz file with the copy you had made in step A.
+If you did not make a copy, you can use the apt.dat.gz.orig file provided in
+this package, reverting to the changes up to DEC2014. Simply rename this
+file as apt.dat.gz and then copy it in the directory indicated in Step A
