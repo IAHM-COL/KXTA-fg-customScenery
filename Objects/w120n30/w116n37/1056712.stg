@@ -107,6 +107,8 @@ OBJECT_SHARED Models/Trees/deciduous-tree3.xml -115.81345839 37.24150072 1358.42
 #LOCALIZERS					
 OBJECT_SHARED	Models/Airport/localizer.xml		-115.78681	37.21161	1371.0333	188
 OBJECT_SHARED	Models/Airport/localizer.xml		-115.78194558	37.21273652	1374.2997	188
+OBJECT_SHARED Models/Communications/vordme_2.xml 	-115.79255555 	37.24252777  	1359.4285
+
 ##LIGHTS
 #canal2str.			
 OBJECT_SHARED	Models/Airport/egkk_light_mast.xml	-115.81514255	37.24290016	1356.3621	
