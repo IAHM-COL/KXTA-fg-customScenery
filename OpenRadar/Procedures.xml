@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<routes>
+
+    <addPoint code="SMOKY" point="36.978056,-115.654722"/>
+    <addPoint code="TEDDY" point="37.014444,-115.780000"/>
+    <addPoint code="PYD" point="36.962500,-115.973611"/>
+    <addPoint code="ABBIE" point="37.104722,-115.992222"/>
+    <addPoint code="BTYRA" point="36.942222,-116.148056"/>
+    <!-- <addPoint code="A51OM" point="37.173611,-115.766944"/> -->
+    <addPoint code="A51OM" point="37.174577,-115.761245"/>
+    <addPoint code="PLANT" point="36.627455,-116.207532"/>
+    <addPoint code="SHOWW" point="36.594694,-116.023778"/>
+    <addPoint code="TRNP1" point="37.173037,-115.738049"/>
+    <addPoint code="AB001" point="37.129899,-115.804669"/>
+    <addPoint code="PY001" point="37.067232,-115.749725"/>
+    <addPoint code="TD001" point="37.108999,-115.725402"/>
+    <addPoint code="NBND1" point="37.320150,-115.836974"/>
+    <addPoint code="NBND2" point="37.400000,-115.873000"/>
+    <addPoint code="MCY PLANET 326KHz" point="36.616225,-116.025852"/>
+    
+    
+
+<route name="Major NAVAIDS" zoomMin="4" zoomMax="400">
+<navaids color="170,170,60">TQQ</navaids>
+<navaids color="170,170,60">SMOKY,TEDDY,PYD,ABBIE,BTYRA,A51OM,NBND1,NBND2,MCY PLANET 326KHz</navaids>
+<navaids color="60,170,60">KU48K,KL45K,ELY,KL045K,TQQ,WATLU,STOFF,LIDAT,BIH,KUPLE,EXITT,PLANT,LAS,DREAM,UTI,IRGEV,KE45M,AVERS,MEGGI,CDC</navaids>
+</route>
+
+    <!-- APP -->
+
+    <route name="KXTA RNAV (GNSS) Approach SMOKY" color="120,120,190" zoomMin="8" zoomMax="400">
+        <text position="SHOWW" font="Arial" fontSize="10" color="62,59,93" alignHeading="250" text="FL190/140"/>
+        <line start="SHOWW" end="SMOKY" text="040??/215??" stroke="dots"/>
+        <line start="SMOKY" end="A51OM" text="340??/158??" stroke="dots"/>
+        <text position="SMOKY" font="Arial" fontSize="10" color="45,0,0" alignHeading="???" text="FL100"/>
+        <line start="SMOKY" end="A51OM" text="325" stroke="dots"/>
+    </route>
+
+  <route name="KXTA RNAV (GNSS) Approach TEDDY" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="SHOWW" end="TEDDY" text="015/195" stroke="dots"/>
+        <line start="TEDDY" end="TD001" text="025/205" stroke="dots"/>
+        <line start="TD001" end="A51OM" text="320/140" stroke="dots"/>
+    </route>
+        
+   <route name="KXTA RNAV (GNSS) Approach PYD" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="SHOWW" end="PYD" text="359/179" stroke="dots"/>
+        <line start="PYD" end="PY001" text="045/225" stroke="dots"/>
+    </route>    
+    
+            
+    <route name="KXTA RNAV (GNSS) Approach ABBIE" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="SHOWW" end="ABBIE" text="350/170" stroke="dots"/>
+        <line start="ABBIE" end="AB001" text="073/253" stroke="dots"/>
+    </route>
+
+<!-- DEP -->
+
+<route name="Northbound" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="NBND1" end="KU48K" fontSize="12" text="331/151" stroke="dashed"/>
+        <line start="KU48K" end="ELY" fontSize="12" text="020/200" stroke="dashed"/>
+</route>
+
+<route name="NorthWest" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="NBND1" end="NBND2" stroke="dashed"/>
+        <line start="NBND2" end="KL45K" text="294/114" stroke="dashed"/>
+        <line start="KL45K" end="TQQ" text="275/095" stroke="dashed"/>
+</route>
+
+<route name="West" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="NBND1" end="NBND2" stroke="dashed"/>
+        <line start="NBND2" end="STOFF" text="255/075" stroke="dashed"/>
+        <line start="STOFF" end="LIDAT" text="260/080" stroke="dashed"/>
+        <line start="LIDAT" end="BIH" text="255/075 - FL 140 RECOMMENDED" stroke="dashed"/>
+</route>
+
+<route name="South from West" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="NBND1" end="NBND2"/>
+        <line start="NBND2" end="STOFF" text="255/075" stroke="dashed"/>
+        <line start="STOFF" end="EXITT" text="130/310" stroke="dashed"/>
+        <line start="EXITT" end="MCY PLANET 326KHz" text="???/???" stroke="dashed"/>
+        <line start="MCY PLANET 326KHz" end="LAS" text="???/???" stroke="dashed"/>
+         <!-- <line start="EXITT" end="PLANT" text="173/353" stroke="dashed"/>
+        <line start="PLANT" end="LAS" text="110/290" stroke="dashed"/> -->
+</route>
+
+<route name="East" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="NBND1" end="NBND2"/>
+        <line start="NBND2" end="DREAM" text="096/276" stroke="dashed"/>
+        <line start="DREAM" end="UTI" text="089/269" stroke="dashed"/>
+</route>
+
+<route name="NorthEast" color="120,120,190" zoomMin="8" zoomMax="400">
+        <line start="NBND1" end="NBND2"/>
+        <line start="NBND2" end="CDC" text="076/256" stroke="dashed"/>
+</route>
+
+</routes>
