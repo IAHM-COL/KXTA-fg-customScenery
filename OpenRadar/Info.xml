@@ -1,278 +1,275 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <routes>
 
-	<route name="Hill 1">
-		
-		
-		<text position="37.180000,-115.830000" font="Arial" fontSize="18" color="212,20,20" text="6400"/>
-		...
-		<multiPointLine close="true" color="212,20,20"  stroke="dashed">
-    <point>37.572163,-115.804117</point>
-    <point>37.558565,-115.638893</point>
-    <point>37.406746,-115.587176</point>
-    <point>37.312851,-115.713583</point>
-    <point>37.288072,-115.823920</point>
-    <point>37.572163,-115.804117</point>
-		</multiPointLine>
-		...
-	</route>
-		<route name="Hill 2">
-		
-		<text position="37.442357,-115.723383" font="Arial" fontSize="18" color="212,20,20"  text="9500"/>
-		...
-		<multiPointLine close="true" color="212,20,20"  stroke="dashed">
-    <point>37.238614,-115.860118</point>
-    <point>37.244487,-115.828203</point>
-    <point>37.241050,-115.824326</point>
-    <point>37.207537,-115.823781</point>
-    <point>37.160155,-115.786374</point>
-    <point>37.135877,-115.814701</point>
-    <point>37.147777,-115.847668</point>
-    <point>37.170506,-115.857549</point>
-    <point>37.199794,-115.860518</point>
-    <point>37.238614,-115.860118</point>
-		</multiPointLine>
-		...
-	</route>
-	
-	
-<route name="Hill 3">
-		
-  <text position="37.406234,-116.122421" font="Arial" fontSize="18" color="212,20,20"  text="8600"/>
-<multiPointLine close="true" color="212,20,20" stroke="dashed">
-<!--<point>37.525109,-115.860118</point>
- <point>37.250721,-116.006602</point> 
-<point>37.266363,-116.037481</point> -->
-<point>37.271962,-115.985960</point>
-<point>37.091969,-116.182576</point>
-<point>37.201610,-116.447233</point>
-<point>37.364975,-116.419928</point>
-<point>37.522850,-116.338891</point>
-<point>37.514547,-116.274035</point>
-<point>37.303162,-116.213452</point>
-<point>37.394451,-116.181562</point>
-<point>37.604780,-116.062061</point>
-<point>37.575948,-116.030439</point>
-<point>37.503615,-115.982120</point>
-<point>37.271962,-115.985960</point>
-</multiPointLine>
-		...
-	</route>
-	
-	
-	<route name="Hill 4">
-		
-  <text position="37.163108,-115.715776" font="Arial" fontSize="18" color="212,20,20"  text="6300"/>
-<multiPointLine close="true" color="212,20,20" stroke="dots">
-<point>37.178563,-115.726410</point>
-<point>37.155564,-115.723842</point>
-<point>37.156724,-115.713528</point>
-<point>37.166701,-115.712130</point>
-<point>37.178563,-115.726410</point>
-</multiPointLine>
-		...
-	</route>
-	
-	<route name="Range 5">
-		
-  <text position="37.064855,-115.731107" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
-  <text position="37.050727,-115.727164" font="Arial" fontSize="18" color="212,20,20"  text="5900, numerous"/>
-<multiPointLine close="true" color="212,20,20" stroke="dots">
-<point>37.111835,-115.725242</point>
-<point>37.072961,-115.743395</point>
-<point>36.988555,-115.730245</point>
-<point>36.987501,-115.702802</point>
-<point>37.029415,-115.641652</point>
-<point>37.055436,-115.636476</point>
-<point>37.081075,-115.703506</point>
-<point>37.111835,-115.725242</point>
-</multiPointLine>
-		...
-	</route>
-	
-		<route name="Range 6">
-		
-  <text position="36.684889,-115.540868" font="Arial" fontSize="18" color="212,20,20"  text="5600"/>
-  <text position="36.704780,-115.542003" font="Arial" fontSize="18" color="212,20,20"  text="6000"/>
-  <text position="36.821416,-115.548817" font="Arial" fontSize="18" color="212,20,20"  text="7000"/>
-  <text position="37.069935,-115.572121" font="Arial" fontSize="18" color="212,20,20"  text="7100"/>
-  <text position="37.226121,-115.565987" font="Arial" fontSize="18" color="212,20,20"  text="6600"/>
-  <text position="37.005490,-115.411555" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
-  <text position="36.940085,-115.378150" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
-  <text position="36.831514,-115.369935" font="Arial" fontSize="18" color="212,20,20"  text="6300"/>
-  <text position="36.674107,-115.374864" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
+  <route name="Hill 1">
+    
+    <text position="37.180000,-115.830000" font="Arial" fontSize="18" color="212,20,20" text="6400"/>
+    ...
+    <multiPointLine close="true" color="212,20,20"  stroke="dashed">
+      <point>37.572163,-115.804117</point>
+      <point>37.558565,-115.638893</point>
+      <point>37.406746,-115.587176</point>
+      <point>37.312851,-115.713583</point>
+      <point>37.288072,-115.823920</point>
+      <point>37.572163,-115.804117</point>
+    </multiPointLine>
+    ...
+  </route>
+  <route name="Hill 2">
+    
+    <text position="37.442357,-115.723383" font="Arial" fontSize="18" color="212,20,20"  text="9500"/>
+    ...
+    <multiPointLine close="true" color="212,20,20"  stroke="dashed">
+      <point>37.238614,-115.860118</point>
+      <point>37.244487,-115.828203</point>
+      <point>37.241050,-115.824326</point>
+      <point>37.207537,-115.823781</point>
+      <point>37.160155,-115.786374</point>
+      <point>37.135877,-115.814701</point>
+      <point>37.147777,-115.847668</point>
+      <point>37.170506,-115.857549</point>
+      <point>37.199794,-115.860518</point>
+      <point>37.238614,-115.860118</point>
+    </multiPointLine>
+    ...
+  </route>
+  
+  
+  <route name="Hill 3">
+    
+    <text position="37.406234,-116.122421" font="Arial" fontSize="18" color="212,20,20"  text="8600"/>
+    <multiPointLine close="true" color="212,20,20" stroke="dashed">
+      <!--<point>37.525109,-115.860118</point>
+	  <point>37.250721,-116.006602</point> 
+	  <point>37.266363,-116.037481</point> -->
+      <point>37.271962,-115.985960</point>
+      <point>37.091969,-116.182576</point>
+      <point>37.201610,-116.447233</point>
+      <point>37.364975,-116.419928</point>
+      <point>37.522850,-116.338891</point>
+      <point>37.514547,-116.274035</point>
+      <point>37.303162,-116.213452</point>
+      <point>37.394451,-116.181562</point>
+      <point>37.604780,-116.062061</point>
+      <point>37.575948,-116.030439</point>
+      <point>37.503615,-115.982120</point>
+      <point>37.271962,-115.985960</point>
+    </multiPointLine>
+    ...
+  </route>
+  
+  
+  <route name="Hill 4">
+    
+    <text position="37.163108,-115.715776" font="Arial" fontSize="18" color="212,20,20"  text="6300"/>
+    <multiPointLine close="true" color="212,20,20" stroke="dots">
+      <point>37.178563,-115.726410</point>
+      <point>37.155564,-115.723842</point>
+      <point>37.156724,-115.713528</point>
+      <point>37.166701,-115.712130</point>
+      <point>37.178563,-115.726410</point>
+    </multiPointLine>
+    ...
+  </route>
+  
+  <route name="Range 5">
+    
+    <text position="37.064855,-115.731107" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
+    <text position="37.050727,-115.727164" font="Arial" fontSize="18" color="212,20,20"  text="5900, numerous"/>
+    <multiPointLine close="true" color="212,20,20" stroke="dots">
+      <point>37.111835,-115.725242</point>
+      <point>37.072961,-115.743395</point>
+      <point>36.988555,-115.730245</point>
+      <point>36.987501,-115.702802</point>
+      <point>37.029415,-115.641652</point>
+      <point>37.055436,-115.636476</point>
+      <point>37.081075,-115.703506</point>
+      <point>37.111835,-115.725242</point>
+    </multiPointLine>
+    ...
+  </route>
+  
+  <route name="Range 6">
+    
+    <text position="36.684889,-115.540868" font="Arial" fontSize="18" color="212,20,20"  text="5600"/>
+    <text position="36.704780,-115.542003" font="Arial" fontSize="18" color="212,20,20"  text="6000"/>
+    <text position="36.821416,-115.548817" font="Arial" fontSize="18" color="212,20,20"  text="7000"/>
+    <text position="37.069935,-115.572121" font="Arial" fontSize="18" color="212,20,20"  text="7100"/>
+    <text position="37.226121,-115.565987" font="Arial" fontSize="18" color="212,20,20"  text="6600"/>
+    <text position="37.005490,-115.411555" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
+    <text position="36.940085,-115.378150" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
+    <text position="36.831514,-115.369935" font="Arial" fontSize="18" color="212,20,20"  text="6300"/>
+    <text position="36.674107,-115.374864" font="Arial" fontSize="18" color="212,20,20"  text="6100"/>
 
-<multiPointLine close="true" color="212,20,20" stroke="dots">
-<point>36.634256,-115.602188</point>
-<point>36.646914,-115.627171</point>
-<point>36.664093,-115.621493</point>
-<point>36.722863,-115.587426</point>
-<point>36.753604,-115.565850</point>
-<point>36.863911,-115.596510</point>
-<point>36.961559,-115.604459</point>
-<point>37.020329,-115.619222</point>
-<point>37.036604,-115.624900</point>
-<point>37.053783,-115.615815</point>
-<point>37.071866,-115.624900</point>
-<point>37.120690,-115.620357</point>
-<point>37.133348,-115.580613</point>
-<point>37.164994,-115.562443</point>
-<point>37.211105,-115.586290</point>
-<point>37.234613,-115.585155</point>
-<point>37.273492,-115.537461</point>
-<point>37.257217,-115.511343</point>
-<point>37.237326,-115.545410</point>
-<point>37.169514,-115.523834</point>
-<point>37.101703,-115.446616</point>
-<point>37.080003,-115.434124</point>
-<point>37.067345,-115.432989</point>
-<point>36.958847,-115.338737</point>
-<point>36.922681,-115.313754</point>
-<point>36.925393,-115.243349</point>
-<point>36.925393,-115.245620</point>
-<point>36.543841,-115.372804</point>
-<point>36.553787,-115.461378</point>
-<point>36.556499,-115.459107</point>
-<point>36.745467,-115.394380</point>
-<point>36.881090,-115.393244</point>
-<point>37.029371,-115.477276</point>
-<point>37.014904,-115.526105</point>
-<point>36.929010,-115.506801</point>
-<point>36.929010,-115.506801</point>
-<point>36.809662,-115.522699</point>
-<point>36.758125,-115.473869</point>
-<point>36.643298,-115.521563</point>
-<point>36.634256,-115.602188</point>
-</multiPointLine>
-		...
-	</route>
-	
-			<route name="Range 7"> <!-- Spring Mountains, W of Vegas-->
-		
-  <text position="36.271054,-115.696753" font="Arial" fontSize="18" color="212,20,20"  text="12000"/>
-  <text position="35.781642,-115.511567" font="Arial" fontSize="16" color="212,20,20"  text="~8200A"/>
+    <multiPointLine close="true" color="212,20,20" stroke="dots">
+      <point>36.634256,-115.602188</point>
+      <point>36.646914,-115.627171</point>
+      <point>36.664093,-115.621493</point>
+      <point>36.722863,-115.587426</point>
+      <point>36.753604,-115.565850</point>
+      <point>36.863911,-115.596510</point>
+      <point>36.961559,-115.604459</point>
+      <point>37.020329,-115.619222</point>
+      <point>37.036604,-115.624900</point>
+      <point>37.053783,-115.615815</point>
+      <point>37.071866,-115.624900</point>
+      <point>37.120690,-115.620357</point>
+      <point>37.133348,-115.580613</point>
+      <point>37.164994,-115.562443</point>
+      <point>37.211105,-115.586290</point>
+      <point>37.234613,-115.585155</point>
+      <point>37.273492,-115.537461</point>
+      <point>37.257217,-115.511343</point>
+      <point>37.237326,-115.545410</point>
+      <point>37.169514,-115.523834</point>
+      <point>37.101703,-115.446616</point>
+      <point>37.080003,-115.434124</point>
+      <point>37.067345,-115.432989</point>
+      <point>36.958847,-115.338737</point>
+      <point>36.922681,-115.313754</point>
+      <point>36.925393,-115.243349</point>
+      <point>36.925393,-115.245620</point>
+      <point>36.543841,-115.372804</point>
+      <point>36.553787,-115.461378</point>
+      <point>36.556499,-115.459107</point>
+      <point>36.745467,-115.394380</point>
+      <point>36.881090,-115.393244</point>
+      <point>37.029371,-115.477276</point>
+      <point>37.014904,-115.526105</point>
+      <point>36.929010,-115.506801</point>
+      <point>36.929010,-115.506801</point>
+      <point>36.809662,-115.522699</point>
+      <point>36.758125,-115.473869</point>
+      <point>36.643298,-115.521563</point>
+      <point>36.634256,-115.602188</point>
+    </multiPointLine>
+    ...
+  </route>
+  
+  <route name="Range 7"> <!-- Spring Mountains, W of Vegas-->
+    
+    <text position="36.271054,-115.696753" font="Arial" fontSize="18" color="212,20,20"  text="12000"/>
+    <text position="35.781642,-115.511567" font="Arial" fontSize="16" color="212,20,20"  text="~8200A"/>
     <text position="36.417360,-115.805063" font="Arial" fontSize="16" color="212,20,20"  text="9600"/>
-<multiPointLine close="true" color="212,20,20" stroke="dots">
-<point>36.146113,-115.782830</point>
-<point>35.703348,-115.582773</point>
-<point>35.560260,-115.684497</point>
-<point>35.673651,-115.491222</point>
-<point>35.824838,-115.314901</point>
-<point>36.062419,-115.362372</point>
-<point>36.270303,-115.331855</point>
-<point>36.437689,-115.453924</point>
-<point>36.367495,-115.599727</point>
-<point>36.586178,-116.047311</point>
-<point>36.488985,-116.091391</point>
-<point>36.146113,-115.782830</point>
-</multiPointLine>
-		...
-	</route>
-	
-				<route name="Peak 8">
+    <multiPointLine close="true" color="212,20,20" stroke="dots">
+      <point>36.146113,-115.782830</point>
+      <point>35.703348,-115.582773</point>
+      <point>35.560260,-115.684497</point>
+      <point>35.673651,-115.491222</point>
+      <point>35.824838,-115.314901</point>
+      <point>36.062419,-115.362372</point>
+      <point>36.270303,-115.331855</point>
+      <point>36.437689,-115.453924</point>
+      <point>36.367495,-115.599727</point>
+      <point>36.586178,-116.047311</point>
+      <point>36.488985,-116.091391</point>
+      <point>36.146113,-115.782830</point>
+    </multiPointLine>
+    ...
+  </route>
+  
+  <route name="Peak 8">
     <!-- Grafton, Snake Range , Out of Radar Range -->
-  <text position="38.823979,-115.404948" font="Arial" fontSize="16" color="212,20,20"  text="11500 to N, 13000 to NE"/>
-		...
-	</route>
+    <text position="38.823979,-115.404948" font="Arial" fontSize="16" color="212,20,20"  text="11500 to N, 13000 to NE"/>
+    ...
+  </route>
 
-					<route name="Peak 10">
+  <route name="Peak 10">
     <!--Monitor Valley, Smoky Valley -->
-  <text position="38.745191,-116.572600" font="Arial" fontSize="16" color="212,20,20"  text="11000, 12000  due W"/>
-</route>
+    <text position="38.745191,-116.572600" font="Arial" fontSize="16" color="212,20,20"  text="11000, 12000  due W"/>
+  </route>
 
   <route name="Peak 11">
     <!-- Isolated peak near coaldale -->
-  <text position="38.004583,-117.467141" font="Arial" fontSize="16" color="212,20,20"  text="9800"/>
+    <text position="38.004583,-117.467141" font="Arial" fontSize="16" color="212,20,20"  text="9800"/>
 
-	</route>
-	
-
-	
+  </route>
+  
   <route name="Range 12">
     <!-- West range just before 140000 for Bishiop, edge of radar range -->
-  <text position="37.730401,-117.779834" font="Arial" fontSize="16" color="212,20,20"  text="9500 - Range"/>
-  <text position="36.540264,-117.561916" font="Arial" fontSize="16" color="212,20,20"  text="9000 - Range"/>
-  <text position="36.365179,-117.223825" font="Arial" fontSize="16" color="212,20,20"  text="9000 - Range"/>
-		...<multiPointLine close="true" color="212,20,20" stroke="dots">
-<point>37.730401,-117.779834</point>
-<point>37.277807,-117.688357</point>
-<point>36.956089,-117.575660</point>
-<point>36.540264,-117.561916</point>
-<point>36.365179,-117.223825</point>
-</multiPointLine>
-	</route>
+    <text position="37.730401,-117.779834" font="Arial" fontSize="16" color="212,20,20"  text="9500 - Range"/>
+    <text position="36.540264,-117.561916" font="Arial" fontSize="16" color="212,20,20"  text="9000 - Range"/>
+    <text position="36.365179,-117.223825" font="Arial" fontSize="16" color="212,20,20"  text="9000 - Range"/>
+    ...<multiPointLine close="true" color="212,20,20" stroke="dots">
+    <point>37.730401,-117.779834</point>
+    <point>37.277807,-117.688357</point>
+    <point>36.956089,-117.575660</point>
+    <point>36.540264,-117.561916</point>
+    <point>36.365179,-117.223825</point>
+  </multiPointLine>
+  </route>
 
-	  <route name="Range 13">
+  <route name="Range 13">
     <!-- Peaks,  -->
-  <text position="36.159455,-117.078143" font="Arial" fontSize="16" color="212,20,20"  text="11500 - Large Range , telescope peak"/>
-  <text position="36.266694,-117.069897" font="Arial" fontSize="16" color="212,20,20"  text="9200"/>
-	</route>
-	
-		<route name="Death Valley" color="170,170,60">
-        <line start="36.019382,-116.776346" end="36.570898,-116.922797" text="Death Valley"/>
-    </route>
+    <text position="36.159455,-117.078143" font="Arial" fontSize="16" color="212,20,20"  text="11500 - Large Range , telescope peak"/>
+    <text position="36.266694,-117.069897" font="Arial" fontSize="16" color="212,20,20"  text="9200"/>
+  </route>
+  
+  <route name="Death Valley" color="170,170,60">
+    <line start="36.019382,-116.776346" end="36.570898,-116.922797" text="Death Valley"/>
+  </route>
 
- <route name="Box-1 Exclusion Zone">
-		<multiPointLine close="true" color="62,59,93" stroke="dots">
-    <!-- <point>37.442500,-113.871944</point>
-    <point>37.898333.-113.701111</point>
-    <point>37.898333.-117.103056</point>
-        <point>37.657500,-117.373056</point> -->
-    <!-- repl N -->
-    <point>37.880000,-113.700000</point>
-    <point>37.880000,-117.100000</point>
-    <!-- good course -->
+  <route name="Box-1 Exclusion Zone">
+    <multiPointLine close="true" color="62,59,93" stroke="dots">
+      <!-- <point>37.442500,-113.871944</point>
+	   <point>37.898333.-113.701111</point>
+	   <point>37.898333.-117.103056</point>
+           <point>37.657500,-117.373056</point> -->
+      <!-- repl N -->
+      <point>37.880000,-113.700000</point>
+      <point>37.880000,-117.100000</point>
+      <!-- good course -->
 
-    <point>36.886389,-116.731111</point>
-    <point>36.970833,-114.231944</point>
-    <point>37.442500,-113.871944</point>
-    <point>37.880000,-113.700000</point>
-		
-		</multiPointLine>
-</route>
+      <point>36.886389,-116.731111</point>
+      <point>36.970833,-114.231944</point>
+      <point>37.442500,-113.871944</point>
+      <point>37.880000,-113.700000</point>
+      
+    </multiPointLine>
+  </route>
 
-<route name="Box-2 R-8808">
-		<multiPointLine close="true" color="62,59,93" stroke="dashed">
-    <point>37.466667,-115.588611</point>
-    <point>37.466667,-116.005000</point>
-    <point>37.269444,-116.005000</point>
-    <point>37.269444,-116.522778</point>
-    <point>37.133611,-116.460278</point>
-    <point>36.918611,-116.460278</point>
-    <point>36.918611,-116.565278</point>
-    <point>36.859444,-116.565278</point>
-    <point>36.859444,-116.448611</point>
-    <point>36.683333,-116.448611</point>
-    <point>36.683333,-115.935000</point>
-    <point>37.101111,-115.935000</point>
-    <point>37.101111,-115.592500</point>
-    <point>37.466667,-115.588611</point>
-		</multiPointLine>
-</route>
-	
+  <route name="Box-2 R-8808">
+    <multiPointLine close="true" color="62,59,93" stroke="dashed">
+      <point>37.466667,-115.588611</point>
+      <point>37.466667,-116.005000</point>
+      <point>37.269444,-116.005000</point>
+      <point>37.269444,-116.522778</point>
+      <point>37.133611,-116.460278</point>
+      <point>36.918611,-116.460278</point>
+      <point>36.918611,-116.565278</point>
+      <point>36.859444,-116.565278</point>
+      <point>36.859444,-116.448611</point>
+      <point>36.683333,-116.448611</point>
+      <point>36.683333,-115.935000</point>
+      <point>37.101111,-115.935000</point>
+      <point>37.101111,-115.592500</point>
+      <point>37.466667,-115.588611</point>
+    </multiPointLine>
+  </route>
+  
   <route name="KXTA Infos">
     <screenText screenPos="200,30" font="Arial" fontSize="16" color="10,10,100" text="Dreamland:  Homey Airport, KXTA, AKA Area 51"/>
     <screenText screenPos="200,50" font="Arial" fontSize="14" color="10,10,100" text="Via Mumble"/>
     <!-- <screenText screenPos="200,50" font="Arial" fontSize="16" color="10,10,100" text="APP: 118.15 / TWR: 119.25 / GND: 121.80"/>
-    <screenText screenPos="200,70" font="Arial" fontSize="16" color="10,10,100" text="LFPO: 118.70"/>
-    <screenText screenPos="650,750" font="Arial" fontSize="14" color="150,150,150" text="BSN/Boursonne, CTL/Chatillon, RLP/Rolampont, CAN/Caen, ROU/Rouen, CRL/Creil"/> -->
+	 <screenText screenPos="200,70" font="Arial" fontSize="16" color="10,10,100" text="LFPO: 118.70"/>
+	 <screenText screenPos="650,750" font="Arial" fontSize="14" color="150,150,150" text="BSN/Boursonne, CTL/Chatillon, RLP/Rolampont, CAN/Caen, ROU/Rouen, CRL/Creil"/> -->
   </route>
 
- <!--
-  <route name="LFPG ILS East">
-    <activeLandingRunways>08R,09L</activeLandingRunways>
-    <screenText screenPos="200,90" font="Arial" fontSize="16" color="10,10,100" text="ILS 08R: 108.55"/>
-    <screenText screenPos="200,110" font="Arial" fontSize="16" color="10,10,100" text="ILS 09L: 109.35"/>
-  </route>
+  <!--
+      <route name="LFPG ILS East">
+      <activeLandingRunways>08R,09L</activeLandingRunways>
+      <screenText screenPos="200,90" font="Arial" fontSize="16" color="10,10,100" text="ILS 08R: 108.55"/>
+      <screenText screenPos="200,110" font="Arial" fontSize="16" color="10,10,100" text="ILS 09L: 109.35"/>
+      </route>
 
-  <route name="LFPG ILS West">
-    <activeLandingRunways>26L,27R</activeLandingRunways>
-    <screenText screenPos="200,90" font="Arial" fontSize="16" color="10,10,100" text="ILS 26L: 108.35"/>
-    <screenText screenPos="200,110" font="Arial" fontSize="16" color="10,10,100" text="ILS 27R: 110.35"/>
-  </route>
+<route name="LFPG ILS West">
+<activeLandingRunways>26L,27R</activeLandingRunways>
+<screenText screenPos="200,90" font="Arial" fontSize="16" color="10,10,100" text="ILS 26L: 108.35"/>
+<screenText screenPos="200,110" font="Arial" fontSize="16" color="10,10,100" text="ILS 27R: 110.35"/>
+</route>
 
-  <route name="Entry points">
-     <navaids color="200,100,0">XERAM,NANOP,GONEK,TRO,DPE,DVL</navaids>
-  </route>
+<route name="Entry points">
+<navaids color="200,100,0">XERAM,NANOP,GONEK,TRO,DPE,DVL</navaids>
+</route>
   -->
 </routes>

@@ -1,305 +1,304 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <routes>
 
-	<!--<route name="KXTA Taxiways" zoomMin="0" zoomMax="18">
-		<text position="47.588392,7.535101" font="Arial" fontSize="12" text="A"/>
-		<text position="47.608806,7.519516" font="Arial" fontSize="12" text="B"/>
-		<text position="47.593346,7.532080" font="Arial" fontSize="12" text="A"/>
-		<text position="47.592003,7.529471" font="Arial" fontSize="12" text="B"/>
-		<text position="47.591216,7.534826" font="Arial" fontSize="12" text="C"/>
-		<text position="47.594755,7.526943" font="Arial" fontSize="12" text="D"/>
-		<text position="47.591033,7.518639" font="Arial" fontSize="12" text="D"/>
-		<text position="47.598615,7.524312" font="Arial" fontSize="12" text="E"/>
-		<text position="47.601502,7.522404" font="Arial" fontSize="12" text="F"/>
-		<text position="47.605606,7.519413" font="Arial" fontSize="12" text="G"/>
-		<text position="47.610823,7.515905" font="Arial" fontSize="12" text="H"/>
-		<text position="47.587744,7.532217" font="Arial" fontSize="12" text="B"/>
-		<text position="47.617371,7.513614" font="Arial" fontSize="12" text="B"/>
-	</route> -->
-	
-	<route name="Taxiway A/W" color="170,170,60" zoomMin="1" zoomMax="26">
-        <line start="37.234965,-115.811198" end="37.245737,-115.811960" text="A"/>
-        <line start="37.245737,-115.811960" end="37.249370,-115.810129" text="A"/>
-        <line start="37.249370,-115.810129" end="37.249677,-115.809601"/>
-        
-        <line start="37.249865,-115.808080" end="37.247158,-115.801454" text="A"/>
-    </route>
+  <!--<route name="KXTA Taxiways" zoomMin="0" zoomMax="18">
+      <text position="47.588392,7.535101" font="Arial" fontSize="12" text="A"/>
+      <text position="47.608806,7.519516" font="Arial" fontSize="12" text="B"/>
+      <text position="47.593346,7.532080" font="Arial" fontSize="12" text="A"/>
+      <text position="47.592003,7.529471" font="Arial" fontSize="12" text="B"/>
+      <text position="47.591216,7.534826" font="Arial" fontSize="12" text="C"/>
+      <text position="47.594755,7.526943" font="Arial" fontSize="12" text="D"/>
+      <text position="47.591033,7.518639" font="Arial" fontSize="12" text="D"/>
+      <text position="47.598615,7.524312" font="Arial" fontSize="12" text="E"/>
+      <text position="47.601502,7.522404" font="Arial" fontSize="12" text="F"/>
+      <text position="47.605606,7.519413" font="Arial" fontSize="12" text="G"/>
+      <text position="47.610823,7.515905" font="Arial" fontSize="12" text="H"/>
+      <text position="47.587744,7.532217" font="Arial" fontSize="12" text="B"/>
+      <text position="47.617371,7.513614" font="Arial" fontSize="12" text="B"/>
+      </route> -->
+  
+  <route name="Taxiway A/W" color="170,170,60" zoomMin="1" zoomMax="26">
+    <line start="37.234965,-115.811198" end="37.245737,-115.811960" text="A"/>
+    <line start="37.245737,-115.811960" end="37.249370,-115.810129" text="A"/>
+    <line start="37.249370,-115.810129" end="37.249677,-115.809601"/>
     
-    <route name="Taxiway B" color="170,170,60" zoomMin="1" zoomMax="26">
-         <line start="37.234863,-115.810865" end="37.237025,-115.802429" text="B"/>
-         
-         <line start="37.237322,-115.801263" end="37.238643,-115.796114" text="B"/>
-    </route>
+    <line start="37.249865,-115.808080" end="37.247158,-115.801454" text="A"/>
+  </route>
+  
+  <route name="Taxiway B" color="170,170,60" zoomMin="1" zoomMax="26">
+    <line start="37.234863,-115.810865" end="37.237025,-115.802429" text="B"/>
     
-    <route name="Taxiway C" color="170,170,60" zoomMin="1" zoomMax="26">
-         <line start="37.218024,-115.786158" end="37.219201,-115.791700" text="C"/>
-         
-         <line start="37.219019,-115.792826" end="37.218820,-115.793589"/>
-         <line start="37.218820,-115.793589" end="37.218993,-115.793989"/>
-         <line start="37.218993,-115.793989" end="37.234762,-115.811198" text="C"/>
-    </route>
+    <line start="37.237322,-115.801263" end="37.238643,-115.796114" text="B"/>
+  </route>
+  
+  <route name="Taxiway C" color="170,170,60" zoomMin="1" zoomMax="26">
+    <line start="37.218024,-115.786158" end="37.219201,-115.791700" text="C"/>
     
-    <route name="Taxiway D" color="170,170,60" zoomMin="1" zoomMax="26">
-         <line start="37.248412,-115.800364" end="37.256970,-115.804875" text="INNER BOW"/>
-         
-         <line start="37.258283,-115.805581" end="37.265691,-115.809445" text="INNER BOW"/>
-         
-         <line start="37.267405,-115.810297" end="37.276882,-115.815006"/>
-         <line start="37.276882,-115.815006" end="37.283540,-115.815407" text="INNER BOW"/>
-         <line start="37.283540,-115.815407" end="37.291198,-115.810525"/>
-         <!-- MELD POINT -->
-         <line start="37.291198,-115.810525" end="37.293674,-115.808406" />
-         <!-- CONTINUATION -->
-         <line start="37.293674,-115.808406" end="37.294797,-115.806535" />
-         <!-- The  below points are in reverse order from the prior circle. -->
-         <line start="37.275889,-115.785847" end="37.279478,-115.783111"/>
-         <line start="37.279478,-115.783111" end="37.283604,-115.782630" text="OUTER BOW"/>
-         <line start="37.283604,-115.782630" end="37.289809,-115.784810"/>
-         <line start="37.289809,-115.784810" end="37.293265,-115.787016"/>
-         <line start="37.293265,-115.787016" end="37.295023,-115.789552" text="OUTER BOW"/>
-         <line start="37.295023,-115.789552" end="37.296198,-115.793625"/>
-         <line start="37.296198,-115.793625" end="37.296614,-115.797276"/>
-         <line start="37.296614,-115.797276" end="37.295687,-115.803376" text="OUTER BOW"/>
-         <line start="37.295687,-115.803376" end="37.294797,-115.806535"/>
-    </route>
+    <line start="37.219019,-115.792826" end="37.218820,-115.793589"/>
+    <line start="37.218820,-115.793589" end="37.218993,-115.793989"/>
+    <line start="37.218993,-115.793989" end="37.234762,-115.811198" text="C"/>
+  </route>
+  
+  <route name="Taxiway D" color="170,170,60" zoomMin="1" zoomMax="26">
+    <line start="37.248412,-115.800364" end="37.256970,-115.804875" text="INNER BOW"/>
     
-    <route name="Taxiway E" color="170,170,60" zoomMin="1" zoomMax="26">
-        <line start="37.274135,-115.821069" end="37.282325,-115.818817"/>
-        <line start="37.282325,-115.818817" end="37.287085,-115.816351" text="OUTER BOW"/>
-        <line start="37.287085,-115.816351" end="37.290071,-115.813650" text="OUTER BOW"/>
-        <line start="37.290071,-115.813650" end="37.293674,-115.808406"/>
-    </route>
+    <line start="37.258283,-115.805581" end="37.265691,-115.809445" text="INNER BOW"/>
+    
+    <line start="37.267405,-115.810297" end="37.276882,-115.815006"/>
+    <line start="37.276882,-115.815006" end="37.283540,-115.815407" text="INNER BOW"/>
+    <line start="37.283540,-115.815407" end="37.291198,-115.810525"/>
+    <!-- MELD POINT -->
+    <line start="37.291198,-115.810525" end="37.293674,-115.808406" />
+    <!-- CONTINUATION -->
+    <line start="37.293674,-115.808406" end="37.294797,-115.806535" />
+    <!-- The  below points are in reverse order from the prior circle. -->
+    <line start="37.275889,-115.785847" end="37.279478,-115.783111"/>
+    <line start="37.279478,-115.783111" end="37.283604,-115.782630" text="OUTER BOW"/>
+    <line start="37.283604,-115.782630" end="37.289809,-115.784810"/>
+    <line start="37.289809,-115.784810" end="37.293265,-115.787016"/>
+    <line start="37.293265,-115.787016" end="37.295023,-115.789552" text="OUTER BOW"/>
+    <line start="37.295023,-115.789552" end="37.296198,-115.793625"/>
+    <line start="37.296198,-115.793625" end="37.296614,-115.797276"/>
+    <line start="37.296614,-115.797276" end="37.295687,-115.803376" text="OUTER BOW"/>
+    <line start="37.295687,-115.803376" end="37.294797,-115.806535"/>
+  </route>
+  
+  <route name="Taxiway E" color="170,170,60" zoomMin="1" zoomMax="26">
+    <line start="37.274135,-115.821069" end="37.282325,-115.818817"/>
+    <line start="37.282325,-115.818817" end="37.287085,-115.816351" text="OUTER BOW"/>
+    <line start="37.287085,-115.816351" end="37.290071,-115.813650" text="OUTER BOW"/>
+    <line start="37.290071,-115.813650" end="37.293674,-115.808406"/>
+  </route>
 
-<!-- Aprons / Parking  -->
+  <!-- Aprons / Parking  -->
 
   <route name="South Apron" color="150,150,60" zoomMin="1" zoomMax="26">
-        <line start="37.231995,-115.808150" end="37.231735,-115.814030" text="SW1"/>
-        <line start="37.231735,-115.814030" end="37.231637,-115.814332"/>
-        <line start="37.231637,-115.814332" end="37.231543,-115.816384"/>
-        
-        <line start="37.231096,-115.816150" end="37.231568,-115.816072"/>
-        
-        <line start="37.232078,-115.816011" end="37.231566,-115.815890"/>
-        
-        <line start="37.231120,-115.815725" end="37.231582,-115.815660"/>
-        <line start="37.231118,-115.815454" end="37.231597,-115.815430"/>
-        <line start="37.231142,-115.815033" end="37.231610,-115.814988"/>
-        <line start="37.231154,-115.814749" end="37.231627,-115.814725"/>
-        
-        <line start="37.231174,-115.814337" end="37.231693,-115.814188"/>
-        <line start="37.231180,-115.814058" end="37.231693,-115.814188"/>
-        <line start="37.234553,-115.814384" end="37.231693,-115.814188" text="SW"/> <!-- west edge SW -->
-        
-        <line start="37.232624,-115.813567" end="37.231761,-115.813468"/>
-        <line start="37.231246,-115.813330" end="37.231761,-115.813468"/>
-        
-        <line start="37.231838,-115.811882" end="37.229438,-115.811682" text="SW2"/>
-        <line start="37.229438,-115.811682" end="37.228537,-115.810739"/>
-        <line start="37.228858,-115.812302" end="37.229708,-115.811143"/>
-        
-        
-        <line start="37.234553,-115.814384" end="37.234725,-115.811124" text="SW"/>
-        <line start="37.234660,-115.812301" end="37.233185,-115.812258"/>
-        <line start="37.234620,-115.813214" end="37.233138,-115.813179"/>
-        <line start="37.234606,-115.813561" end="37.235134,-115.813719"/>
-        <line start="37.234596,-115.813828" end="37.235123,-115.813969"/>
-        <line start="37.234326,-115.814373" end="37.234210,-115.815180"/>
-    </route>
+    <line start="37.231995,-115.808150" end="37.231735,-115.814030" text="SW1"/>
+    <line start="37.231735,-115.814030" end="37.231637,-115.814332"/>
+    <line start="37.231637,-115.814332" end="37.231543,-115.816384"/>
     
-     <route name="North Apron" color="150,150,60" zoomMin="1" zoomMax="26">
-        <!-- Main Lines  -->
-        <line start="37.245696,-115.812131" end="37.245464,-115.816929"/>
-        <line start="37.246286,-115.812431" end="37.246239,-115.813439"/>
-        <line start="37.245647,-115.813223" end="37.244520,-115.813149"/>
-        <line start="37.245628,-115.813625" end="37.244499,-115.813545"/>
-        <line start="37.245497,-115.816283" end="37.244359,-115.816206"/> <!-- Second coord is H, should be H'?? -->
-        <line start="37.245464,-115.816929" end="37.244198,-115.816851"/>
-       
-        <!-- Red Hat N -->
-        <line start="37.245686,-115.812371" end="37.246286,-115.812431"/>
-        <line start="37.245677,-115.812580" end="37.246280,-115.812630"/>
-        <line start="37.245688,-115.812779" end="37.246276,-115.812815"/>
-        <line start="37.245658,-115.812982" end="37.246265,-115.813031"/>
-        <line start="37.245649,-115.813190" end="37.246252,-115.813247"/>
-        <line start="37.245639,-115.813383" end="37.246239,-115.813439"/>
-        
-        <!-- E. Side Fighter -->
-        <line start="37.245183,-115.813194" end="37.245168,-115.813587"/>
-        <line start="37.245015,-115.813180" end="37.244985,-115.813588"/>
-        <line start="37.244839,-115.813171" end="37.244824,-115.813583"/>
-        <line start="37.244682,-115.813161" end="37.244666,-115.813569"/>
-        <line start="37.244520,-115.813149" end="37.244499,-115.813545"/>
-        
-        <!--  West Fighters -->
-        <line start="37.245385,-115.816287" end="37.245202,-115.816926"/>
-        <line start="37.245221,-115.816273" end="37.245013,-115.816920"/>
-        <line start="37.245064,-115.816261" end="37.244858,-115.816904"/>
-        <line start="37.244873,-115.816246" end="37.244674,-115.816883"/>
-        <line start="37.244688,-115.816231" end="37.244475,-115.816870"/>
-        <line start="37.244486,-115.816216" end="37.244198,-115.816851"/>
-        
-        <!-- RH Hangar West -->
-        <line start="37.244975,-115.816254" end="37.244957,-115.815872"/>
-        <line start="37.244359,-115.816206" end="37.244400,-115.815267"/>
-        
-        <!-- RH Hangar East -->
-        <line start="37.245038,-115.813588" end="37.244992,-115.814274"/>
-        <line start="37.244592,-115.813552" end="37.244553,-115.814285"/>
-       
-       <!--Helipads -->
-       <line start="37.247777,-115.812393" end="37.247786,-115.812076"/>
-       <line start="37.247786,-115.812076" end="37.247510,-115.812058"/>
-       <line start="37.247510,-115.812058" end="37.247502,-115.812372"/>
-       <line start="37.247502,-115.812372" end="37.247777,-115.812393"/>
-       
-       <line start="37.247422,-115.812366" end="37.247435,-115.812052"/>
-       <line start="37.247435,-115.812052" end="37.247159,-115.812031"/>
-       <line start="37.247159,-115.812031" end="37.247152,-115.812353"/>
-       <line start="37.247152,-115.812353" end="37.247422,-115.812366"/>
-       
-       <line start="37.247087,-115.812336" end="37.247099,-115.812026"/>
-       <line start="37.247099,-115.812026" end="37.246819,-115.812001"/>
-       <line start="37.246819,-115.812001" end="37.246800,-115.812325"/>
-       <line start="37.246800,-115.812325" end="37.247087,-115.812366"/>
-       
-       
-    </route>
+    <line start="37.231096,-115.816150" end="37.231568,-115.816072"/>
     
- <route name="Central Apron" color="150,150,60" zoomMin="1" zoomMax="26">
-        
-        <!-- King Air -->
-        <line start="37.240659,-115.811618" end="37.240608,-115.812435"/>
-        <line start="37.240305,-115.811583" end="37.240268,-115.812411"/>
-        <line start="37.239995,-115.811553" end="37.239961,-115.812390"/>
-        <line start="37.240608,-115.812435" end="37.239961,-115.812390"/>
-        <line start="37.240632,-115.811999" end="37.240283,-115.811954"/>
-        <line start="37.239976,-115.811971" end="37.240280,-115.812020"/>
-        <line start="37.240621,-115.812215" end="37.240274,-115.812151"/>
-        <line start="37.239967,-115.812201" end="37.240270,-115.812246"/>
-       
-       <!-- Janet -->
-       <line start="37.239050,-115.811488" end="37.238982,-115.812507"/>
-       <line start="37.238684,-115.811464" end="37.238645,-115.812486"/>
-       <line start="37.238314,-115.811435" end="37.238268,-115.812466"/>
-       <line start="37.237929,-115.811403" end="37.237888,-115.812436"/>
-       <line start="37.237553,-115.811373" end="37.237489,-115.812404"/>
-       <line start="37.237149,-115.811346" end="37.237113,-115.812379"/>
-       <line start="37.236730,-115.812349" end="37.238982,-115.812507"/>
-       
-       <!-- Central Hangar -->
-       <line start="37.236762,-115.811323" end="37.236649,-115.814041"/>
-       <line start="37.236673,-115.813729" end="37.235666,-115.813700"/>
-       <line start="37.236649,-115.814041" end="37.235654,-115.814005"/>
-       
-       <!-- Rearming / Patrol / Hide Point -->
-       <line start="37.236373,-115.804740" end="37.233467,-115.804556" text="B2"/>
-    </route>
-
-<!-- COPYABLE
- <route name="Southernmost Lines" color="150,150,60" zoomMin="1" zoomMax="26">
-        <line start="37.,-115." end="37.,-115."/>
-       
-    </route>
--->
-
-<route name="KXTAParking" zoomMin="1" zoomMax="15">
-<text position="37.247643,-115.812222" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H1"/>
-<text position="37.247302,-115.812194" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H2"/>
-<text position="37.246967,-115.812162" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H3"/>
-
-<!-- <text position="37.2475115,-115.8122144" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H1"/>
-<text position="37.2471117,-115.8121793" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H2"/>
-<text position="37.2466971,-115.812148" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H3"/> -->
-
-<text position="37.2443531,-115.8164661" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH1"/>
-<text position="37.2445011,-115.8165229" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH2"/>
-<text position="37.2446707,-115.8165532" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH3"/>
-<text position="37.2448419,-115.8165716" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH4"/>
-<text position="37.2450196,-115.8165737" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH5"/>
-<text position="37.2451851,-115.8166047" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH6"/>
-
-<text position="37.2445029,-115.8133283" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH7"/>
-<text position="37.2446599,-115.8133409" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH8"/>
-<text position="37.2448244,-115.8133647" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH9"/>
-<text position="37.2449935,-115.8133754" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH10"/>
-<text position="37.2451564,-115.8133827" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH11"/>
-
-<text position="37.2459612,-115.8134274" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH12"/>
-<text position="37.2459663,-115.813226" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH13"/>
-<text position="37.2459912,-115.8130098" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH14"/>
-<text position="37.2459904,-115.8128088" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH15"/>
-<text position="37.2460172,-115.812608" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH16"/>
-<text position="37.2460356,-115.8124015" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH17"/>
-
-<text position="37.2449964,-115.8141983" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP5"/>
-<text position="37.2445513,-115.8142495" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP4"/>
-
-<text position="37.2447151,-115.8140209" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RX5"/>
-
-<text position="37.2443943,-115.8153262" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP7"/>
-<text position="37.2449439,-115.8154147" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP6"/>
-<text position="37.240124,-115.8120051" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K1"/>
-
-<text position="37.2401081,-115.8122294" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K2"/>
-<text position="37.2401065,-115.812401" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K3"/>
-<text position="37.240447,-115.8124245" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K4"/>
-<text position="37.240449,-115.8122015" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K5"/>
-<text position="37.2404512,-115.8119835" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K6"/>
-
-<text position="37.2390297,-115.8120457" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J1"/>
-<text position="37.2386539,-115.8120256" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J2"/>
-<text position="37.2382848,-115.8119093" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J3"/>
-<text position="37.2379098,-115.8118844" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J4"/>
-<text position="37.2375378,-115.8118522" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J5"/>
-<text position="37.2371633,-115.8117728" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J6"/>
-
-<text position="37.2359062,-115.8140232" font="Arial" fontSize="11" color="55,0,0" angle="0" text="X1"/>
-<text position="37.2358871,-115.8137721" font="Arial" fontSize="11" color="55,0,0" angle="0" text="X2"/>
-
-<text position="37.236005,-115.813787" font="Arial" fontSize="11" color="55,0,0" angle="0" text="A18"/>
-
-<text position="37.2342224,-115.814724" font="Arial" fontSize="11" color="55,0,0" angle="0" text="B1"/>
-
-<text position="37.2340486,-115.812823" font="Arial" fontSize="11" color="55,0,0" angle="0" text="C1"/>
-<text position="37.2339559,-115.812819" font="Arial" fontSize="11" color="55,0,0" angle="0" text="C2"/>
-
-<text position="37.2337951,-115.8128025" font="Arial" fontSize="11" color="55,0,0" angle="0" text="D1"/>
-<text position="37.2337229,-115.8127993" font="Arial" fontSize="11" color="55,0,0" angle="0" text="D2"/>
-
-<text position="37.2330149,-115.8127495" font="Arial" fontSize="11" color="55,0,0" angle="0" text="E1"/>
-<text position="37.2331144,-115.812757" font="Arial" fontSize="11" color="55,0,0" angle="0" text="E2"/>
-
-<text position="37.2332473,-115.8127636" font="Arial" fontSize="11" color="55,0,0" angle="0" text="F1"/>
-<text position="37.2333513,-115.8127644" font="Arial" fontSize="11" color="55,0,0" angle="0" text="F2"/>
-
-<text position="37.2324065,-115.8135488" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S1"/>
-<text position="37.231441,-115.813346" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S2"/>
-
-<text position="37.2319554,-115.8160004" font="Arial" fontSize="11" color="55,0,0" angle="0" text="G1"/>
-
-<text position="37.2312895,-115.8161665" font="Arial" fontSize="11" color="55,0,0" angle="0" text="I2"/>
-<text position="37.2312685,-115.8157339" font="Arial" fontSize="11" color="55,0,0" angle="0" text="I1"/>
-<text position="37.2312589,-115.8154645" font="Arial" fontSize="11" color="55,0,0" angle="0" text="L2"/>
-
-<text position="37.2312836,-115.8150415" font="Arial" fontSize="11" color="55,0,0" angle="0" text="M1"/>
-<text position="37.2312954,-115.8147612" font="Arial" fontSize="11" color="55,0,0" angle="0" text="M2"/>
-
-<text position="37.2313196,-115.8143441" font="Arial" fontSize="11" color="55,0,0" angle="0" text="N1"/>
-<text position="37.231318,-115.8140622" font="Arial" fontSize="11" color="55,0,0" angle="0" text="N2"/>
-
-<text position="37.22891,-115.811117" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S3"/>
-<text position="37.2288821,-115.8110817" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S4"/>
-
-<!-- <text position="37.2346506,-115.8046174" font="Arial" fontSize="11" color="55,0,0" angle="0" text="O1"/> -->
-
-</route>
-
-<!--  
-  <route name="LFPG Terminals" zoomMin="0" zoomMax="20">
-    <text position="49.014304,2.541537" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Terminal 1"/>
-    <text position="49.000862,2.536872" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Fret"/>
-    <text position="49.012832,2.559140" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Terminal 3"/>
-    <text position="49.005125,2.574887" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Terminal 2"/>
+    <line start="37.232078,-115.816011" end="37.231566,-115.815890"/>
+    
+    <line start="37.231120,-115.815725" end="37.231582,-115.815660"/>
+    <line start="37.231118,-115.815454" end="37.231597,-115.815430"/>
+    <line start="37.231142,-115.815033" end="37.231610,-115.814988"/>
+    <line start="37.231154,-115.814749" end="37.231627,-115.814725"/>
+    
+    <line start="37.231174,-115.814337" end="37.231693,-115.814188"/>
+    <line start="37.231180,-115.814058" end="37.231693,-115.814188"/>
+    <line start="37.234553,-115.814384" end="37.231693,-115.814188" text="SW"/> <!-- west edge SW -->
+    
+    <line start="37.232624,-115.813567" end="37.231761,-115.813468"/>
+    <line start="37.231246,-115.813330" end="37.231761,-115.813468"/>
+    
+    <line start="37.231838,-115.811882" end="37.229438,-115.811682" text="SW2"/>
+    <line start="37.229438,-115.811682" end="37.228537,-115.810739"/>
+    <line start="37.228858,-115.812302" end="37.229708,-115.811143"/>
+    
+    <line start="37.234553,-115.814384" end="37.234725,-115.811124" text="SW"/>
+    <line start="37.234660,-115.812301" end="37.233185,-115.812258"/>
+    <line start="37.234620,-115.813214" end="37.233138,-115.813179"/>
+    <line start="37.234606,-115.813561" end="37.235134,-115.813719"/>
+    <line start="37.234596,-115.813828" end="37.235123,-115.813969"/>
+    <line start="37.234326,-115.814373" end="37.234210,-115.815180"/>
   </route>
--->
+  
+  <route name="North Apron" color="150,150,60" zoomMin="1" zoomMax="26">
+    <!-- Main Lines  -->
+    <line start="37.245696,-115.812131" end="37.245464,-115.816929"/>
+    <line start="37.246286,-115.812431" end="37.246239,-115.813439"/>
+    <line start="37.245647,-115.813223" end="37.244520,-115.813149"/>
+    <line start="37.245628,-115.813625" end="37.244499,-115.813545"/>
+    <line start="37.245497,-115.816283" end="37.244359,-115.816206"/> <!-- Second coord is H, should be H'?? -->
+    <line start="37.245464,-115.816929" end="37.244198,-115.816851"/>
+    
+    <!-- Red Hat N -->
+    <line start="37.245686,-115.812371" end="37.246286,-115.812431"/>
+    <line start="37.245677,-115.812580" end="37.246280,-115.812630"/>
+    <line start="37.245688,-115.812779" end="37.246276,-115.812815"/>
+    <line start="37.245658,-115.812982" end="37.246265,-115.813031"/>
+    <line start="37.245649,-115.813190" end="37.246252,-115.813247"/>
+    <line start="37.245639,-115.813383" end="37.246239,-115.813439"/>
+    
+    <!-- E. Side Fighter -->
+    <line start="37.245183,-115.813194" end="37.245168,-115.813587"/>
+    <line start="37.245015,-115.813180" end="37.244985,-115.813588"/>
+    <line start="37.244839,-115.813171" end="37.244824,-115.813583"/>
+    <line start="37.244682,-115.813161" end="37.244666,-115.813569"/>
+    <line start="37.244520,-115.813149" end="37.244499,-115.813545"/>
+    
+    <!--  West Fighters -->
+    <line start="37.245385,-115.816287" end="37.245202,-115.816926"/>
+    <line start="37.245221,-115.816273" end="37.245013,-115.816920"/>
+    <line start="37.245064,-115.816261" end="37.244858,-115.816904"/>
+    <line start="37.244873,-115.816246" end="37.244674,-115.816883"/>
+    <line start="37.244688,-115.816231" end="37.244475,-115.816870"/>
+    <line start="37.244486,-115.816216" end="37.244198,-115.816851"/>
+    
+    <!-- RH Hangar West -->
+    <line start="37.244975,-115.816254" end="37.244957,-115.815872"/>
+    <line start="37.244359,-115.816206" end="37.244400,-115.815267"/>
+    
+    <!-- RH Hangar East -->
+    <line start="37.245038,-115.813588" end="37.244992,-115.814274"/>
+    <line start="37.244592,-115.813552" end="37.244553,-115.814285"/>
+    
+    <!--Helipads -->
+    <line start="37.247777,-115.812393" end="37.247786,-115.812076"/>
+    <line start="37.247786,-115.812076" end="37.247510,-115.812058"/>
+    <line start="37.247510,-115.812058" end="37.247502,-115.812372"/>
+    <line start="37.247502,-115.812372" end="37.247777,-115.812393"/>
+    
+    <line start="37.247422,-115.812366" end="37.247435,-115.812052"/>
+    <line start="37.247435,-115.812052" end="37.247159,-115.812031"/>
+    <line start="37.247159,-115.812031" end="37.247152,-115.812353"/>
+    <line start="37.247152,-115.812353" end="37.247422,-115.812366"/>
+    
+    <line start="37.247087,-115.812336" end="37.247099,-115.812026"/>
+    <line start="37.247099,-115.812026" end="37.246819,-115.812001"/>
+    <line start="37.246819,-115.812001" end="37.246800,-115.812325"/>
+    <line start="37.246800,-115.812325" end="37.247087,-115.812366"/>
+    
+    
+  </route>
+  
+  <route name="Central Apron" color="150,150,60" zoomMin="1" zoomMax="26">
+    
+    <!-- King Air -->
+    <line start="37.240659,-115.811618" end="37.240608,-115.812435"/>
+    <line start="37.240305,-115.811583" end="37.240268,-115.812411"/>
+    <line start="37.239995,-115.811553" end="37.239961,-115.812390"/>
+    <line start="37.240608,-115.812435" end="37.239961,-115.812390"/>
+    <line start="37.240632,-115.811999" end="37.240283,-115.811954"/>
+    <line start="37.239976,-115.811971" end="37.240280,-115.812020"/>
+    <line start="37.240621,-115.812215" end="37.240274,-115.812151"/>
+    <line start="37.239967,-115.812201" end="37.240270,-115.812246"/>
+    
+    <!-- Janet -->
+    <line start="37.239050,-115.811488" end="37.238982,-115.812507"/>
+    <line start="37.238684,-115.811464" end="37.238645,-115.812486"/>
+    <line start="37.238314,-115.811435" end="37.238268,-115.812466"/>
+    <line start="37.237929,-115.811403" end="37.237888,-115.812436"/>
+    <line start="37.237553,-115.811373" end="37.237489,-115.812404"/>
+    <line start="37.237149,-115.811346" end="37.237113,-115.812379"/>
+    <line start="37.236730,-115.812349" end="37.238982,-115.812507"/>
+    
+    <!-- Central Hangar -->
+    <line start="37.236762,-115.811323" end="37.236649,-115.814041"/>
+    <line start="37.236673,-115.813729" end="37.235666,-115.813700"/>
+    <line start="37.236649,-115.814041" end="37.235654,-115.814005"/>
+    
+    <!-- Rearming / Patrol / Hide Point -->
+    <line start="37.236373,-115.804740" end="37.233467,-115.804556" text="B2"/>
+  </route>
+
+  <!-- COPYABLE
+       <route name="Southernmost Lines" color="150,150,60" zoomMin="1" zoomMax="26">
+       <line start="37.,-115." end="37.,-115."/>
+       
+       </route>
+  -->
+
+  <route name="KXTAParking" zoomMin="1" zoomMax="15">
+    <text position="37.247643,-115.812222" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H1"/>
+    <text position="37.247302,-115.812194" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H2"/>
+    <text position="37.246967,-115.812162" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H3"/>
+
+    <!-- <text position="37.2475115,-115.8122144" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H1"/>
+	 <text position="37.2471117,-115.8121793" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H2"/>
+	 <text position="37.2466971,-115.812148" font="Arial" fontSize="11" color="55,0,0" angle="0" text="H3"/> -->
+
+    <text position="37.2443531,-115.8164661" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH1"/>
+    <text position="37.2445011,-115.8165229" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH2"/>
+    <text position="37.2446707,-115.8165532" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH3"/>
+    <text position="37.2448419,-115.8165716" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH4"/>
+    <text position="37.2450196,-115.8165737" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH5"/>
+    <text position="37.2451851,-115.8166047" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH6"/>
+
+    <text position="37.2445029,-115.8133283" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH7"/>
+    <text position="37.2446599,-115.8133409" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH8"/>
+    <text position="37.2448244,-115.8133647" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH9"/>
+    <text position="37.2449935,-115.8133754" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH10"/>
+    <text position="37.2451564,-115.8133827" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RH11"/>
+
+    <text position="37.2459612,-115.8134274" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH12"/>
+    <text position="37.2459663,-115.813226" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH13"/>
+    <text position="37.2459912,-115.8130098" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH14"/>
+    <text position="37.2459904,-115.8128088" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH15"/>
+    <text position="37.2460172,-115.812608" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH16"/>
+    <text position="37.2460356,-115.8124015" font="Arial" fontSize="11" color="55,0,0" angle="45" text="RH17"/>
+
+    <text position="37.2449964,-115.8141983" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP5"/>
+    <text position="37.2445513,-115.8142495" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP4"/>
+
+    <text position="37.2447151,-115.8140209" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RX5"/>
+
+    <text position="37.2443943,-115.8153262" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP7"/>
+    <text position="37.2449439,-115.8154147" font="Arial" fontSize="11" color="55,0,0" angle="0" text="RP6"/>
+    <text position="37.240124,-115.8120051" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K1"/>
+
+    <text position="37.2401081,-115.8122294" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K2"/>
+    <text position="37.2401065,-115.812401" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K3"/>
+    <text position="37.240447,-115.8124245" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K4"/>
+    <text position="37.240449,-115.8122015" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K5"/>
+    <text position="37.2404512,-115.8119835" font="Arial" fontSize="11" color="55,0,0" angle="45" text="K6"/>
+
+    <text position="37.2390297,-115.8120457" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J1"/>
+    <text position="37.2386539,-115.8120256" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J2"/>
+    <text position="37.2382848,-115.8119093" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J3"/>
+    <text position="37.2379098,-115.8118844" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J4"/>
+    <text position="37.2375378,-115.8118522" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J5"/>
+    <text position="37.2371633,-115.8117728" font="Arial" fontSize="11" color="55,0,0" angle="0" text="J6"/>
+
+    <text position="37.2359062,-115.8140232" font="Arial" fontSize="11" color="55,0,0" angle="0" text="X1"/>
+    <text position="37.2358871,-115.8137721" font="Arial" fontSize="11" color="55,0,0" angle="0" text="X2"/>
+
+    <text position="37.236005,-115.813787" font="Arial" fontSize="11" color="55,0,0" angle="0" text="A18"/>
+
+    <text position="37.2342224,-115.814724" font="Arial" fontSize="11" color="55,0,0" angle="0" text="B1"/>
+
+    <text position="37.2340486,-115.812823" font="Arial" fontSize="11" color="55,0,0" angle="0" text="C1"/>
+    <text position="37.2339559,-115.812819" font="Arial" fontSize="11" color="55,0,0" angle="0" text="C2"/>
+
+    <text position="37.2337951,-115.8128025" font="Arial" fontSize="11" color="55,0,0" angle="0" text="D1"/>
+    <text position="37.2337229,-115.8127993" font="Arial" fontSize="11" color="55,0,0" angle="0" text="D2"/>
+
+    <text position="37.2330149,-115.8127495" font="Arial" fontSize="11" color="55,0,0" angle="0" text="E1"/>
+    <text position="37.2331144,-115.812757" font="Arial" fontSize="11" color="55,0,0" angle="0" text="E2"/>
+
+    <text position="37.2332473,-115.8127636" font="Arial" fontSize="11" color="55,0,0" angle="0" text="F1"/>
+    <text position="37.2333513,-115.8127644" font="Arial" fontSize="11" color="55,0,0" angle="0" text="F2"/>
+
+    <text position="37.2324065,-115.8135488" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S1"/>
+    <text position="37.231441,-115.813346" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S2"/>
+
+    <text position="37.2319554,-115.8160004" font="Arial" fontSize="11" color="55,0,0" angle="0" text="G1"/>
+
+    <text position="37.2312895,-115.8161665" font="Arial" fontSize="11" color="55,0,0" angle="0" text="I2"/>
+    <text position="37.2312685,-115.8157339" font="Arial" fontSize="11" color="55,0,0" angle="0" text="I1"/>
+    <text position="37.2312589,-115.8154645" font="Arial" fontSize="11" color="55,0,0" angle="0" text="L2"/>
+
+    <text position="37.2312836,-115.8150415" font="Arial" fontSize="11" color="55,0,0" angle="0" text="M1"/>
+    <text position="37.2312954,-115.8147612" font="Arial" fontSize="11" color="55,0,0" angle="0" text="M2"/>
+
+    <text position="37.2313196,-115.8143441" font="Arial" fontSize="11" color="55,0,0" angle="0" text="N1"/>
+    <text position="37.231318,-115.8140622" font="Arial" fontSize="11" color="55,0,0" angle="0" text="N2"/>
+
+    <text position="37.22891,-115.811117" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S3"/>
+    <text position="37.2288821,-115.8110817" font="Arial" fontSize="11" color="55,0,0" angle="0" text="S4"/>
+
+    <!-- <text position="37.2346506,-115.8046174" font="Arial" fontSize="11" color="55,0,0" angle="0" text="O1"/> -->
+
+  </route>
+
+  <!--  
+       <route name="LFPG Terminals" zoomMin="0" zoomMax="20">
+       <text position="49.014304,2.541537" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Terminal 1"/>
+       <text position="49.000862,2.536872" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Fret"/>
+       <text position="49.012832,2.559140" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Terminal 3"/>
+       <text position="49.005125,2.574887" font="Arial" fontSize="10" color="55,0,0" angle="0" text="Terminal 2"/>
+       </route>
+  -->
 </routes>
