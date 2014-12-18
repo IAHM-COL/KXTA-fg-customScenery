@@ -581,6 +581,15 @@
 	     heading="4"
 	     radius="40"
 	     airlineCodes="USAF" />
+    <Parking index="62"
+	     type="apron"
+	     name="Hangar24"
+	     number="1"
+	     lat="N37 14.715"
+	     lon="W115 48.653"
+	     heading="4"
+	     radius="40"
+	     airlineCodes="USAF" />
   </parkingList>
 
   <TaxiNodes>

@@ -112,7 +112,7 @@ OBJECT_SHARED	Models/Airport/ils.xml			-115.79491280 37.22612545  	1363.8456	338
 OBJECT_SHARED	Models/Airport/ils.xml			-115.78640720 37.21989476  	1368.5528	338.357 #32R
 OBJECT_SHARED	Models/Airport/ils.xml			-115.80049000 37.24512000 	1357.0684	158.334 #14L
 #
-OBJECT_SHARED Models/Communications/vordme_2.xml 	-115.79255555 	37.24252777  	1359.4285
+OBJECT_SHARED Models/Communications/vordme_2.xml 	-115.79255555 37.24252777  	1359.4285
 OBJECT_SHARED Models/Communications/Antenna3.ac 	-115.7917100    37.2465500	1360
 OBJECT_SHARED Models/Communications/Antenna3.ac 	-115.7757000    37.25164	1360
 OBJECT_SHARED Models/Communications/Interferometer_Radio_Telescope.ac   -115.81524    37.24801	1357     93
