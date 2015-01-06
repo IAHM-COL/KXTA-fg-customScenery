@@ -1,0 +1,39 @@
+README.OpenRadar_1
+#Copied from a PDF file provided by KB7 - IHCOL, Jan 2015#
+
+
+INSTALLATION – VERY IMPORTANT
+
+
+The three files in the OpenRadar directory; Taxi.xml, Info.xml, and Procedures.xml, must be copied to the /data/routes/KXTA folder in the OpenRadar installation directory. 
+
+NOTE: DO NOT install them to the data/KXTA folder! These must go in the routes subfolder in a separate KXTA folder that you will have to create. You should see many other ICAO code folders in the routes folder already. I didn't pack them into a KXTA folder this way intentionally.
+
+Copy the files because moving them will cause GIT to pull a fresh copy on your next git pull. That way lies confusion. This document (README.OpenRadar_1) will change version number when there are enhancements to the files. When running OpenRadar, in the tweaks tab, you need to suppress the following: Streams, Lakes/Waterbody, Urban. Use all the enhancements can currently be toggled on/off using the STAR/SID selector above the chat line. Future enhancements will split out the toggling. Taxiways appear when zoomed into the airport area.
+
+
+
+ENHANCEMENTS
+
+The enhancemets to date include the following:
+
+* Hill areas closest to the runways measured out, north, southwest / far western hills of significance mapped.
+* Taxiway layout accurate to the chart.
+* Parking spaces accurately positioned; named to the groundnet – being improved.
+* Inbound lines accurate to JANET aircraft inbound patterns (dotted blue lines).
+* Outbound lines speculative of courses outbound across the Area 51 Box and Nellis (dashed blue).
+* Course headings on routes tested by flight.
+
+Following still require implementation:
+
+* Continuing hill surveys, especially on the East half, and southwest/West between 10 and 80 miles.
+* Tagging routing lines to the active runways.
+* Set parking to suppress on the PPN button only.
+* Set routes only to suppress on the STAR/SID button only.
+* Routings for alternate runways (14, 03, 09, 21, 27).
+* Addition of 32L/14R. (This may be changeable but will most likely be the last enhancement).
+* Remeasure all magnetic route headings in calm winds (some may be mis-measured slightly).
+* Continuing hill survey to all hills within range (those along routings will have first priority).
+* Fixing the bugs on the urban, lakes, and streams maps which preclude startup with these on.
+* Clean the hills around the runways so they don't show as being in the bow or on the property.
+* Reset parking name spaces to more accurately match the chart and add a small key.
