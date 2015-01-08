@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <version type="int">2</version>
+  <departure>
+    <airport type="string">KLAS</airport>
+  </departure>
+  <destination>
+    <airport type="string">KTNX</airport>
+  </destination>
+  <route>
+    <wp>
+      <type type="string">navaid</type>
+      <departure type="bool">true</departure>
+      <ident type="string">KLAS</ident>
+      <lon type="double">-115.1556985</lon>
+      <lat type="double">36.085178</lat>
+    </wp>
+    <wp n="1">
+      <type type="string">navaid</type>
+      <ident type="string">SHOWW</ident>
+      <lon type="double">-116.023778</lon>
+      <lat type="double">36.594694</lat>
+    </wp>
+    <wp n="2">
+      <type type="string">navaid</type>
+      <approach type="bool">true</approach>
+      <ident type="string">KTNX</ident>
+      <lon type="double">-116.780746</lon>
+      <lat type="double">37.7988375</lat>
+    </wp>
+  </route>
+</PropertyList>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <version type="int">2</version>
+  <departure>
+    <airport type="string">KLAS</airport>
+  </departure>
+  <destination>
+    <airport type="string">KTNX</airport>
+    <runway type="string">14</runway>
+  </destination>
+  <route>
+    <wp>
+      <type type="string">navaid</type>
+      <departure type="bool">true</departure>
+      <ident type="string">KLAS</ident>
+      <lon type="double">-115.1556985</lon>
+      <lat type="double">36.085178</lat>
+    </wp>
+    <wp n="1">
+      <type type="string">offset-navaid</type>
+      <ident type="string">BLD</ident>
+      <lon type="double">-114.8635778</lon>
+      <lat type="double">35.99579167</lat>
+      <radial-deg type="double">272.6591906</radial-deg>
+      <distance-nm type="double">33</distance-nm>
+    </wp>
+    <wp n="2">
+      <type type="string">navaid</type>
+      <ident type="string">FUZZY</ident>
+      <lon type="double">-115.900281</lon>
+      <lat type="double">36.200575</lat>
+    </wp>
+    <wp n="3">
+      <type type="string">navaid</type>
+      <ident type="string">BTY</ident>
+      <lon type="double">-116.7476417</lon>
+      <lat type="double">36.80059722</lat>
+    </wp>
+    <wp n="4">
+      <type type="string">navaid</type>
+      <ident type="string">LIDAT</ident>
+      <lon type="double">-117.278056</lon>
+      <lat type="double">37.430186</lat>
+    </wp>
+    <wp n="5">
+      <type type="string">offset-navaid</type>
+      <ident type="string">TPH</ident>
+      <lon type="double">-117.0335</lon>
+      <lat type="double">38.03063889</lat>
+      <radial-deg type="double">218.6591906</radial-deg>
+      <distance-nm type="double">10</distance-nm>
+    </wp>
+    <wp n="6">
+      <type type="string">navaid</type>
+      <ident type="string">TPH</ident>
+      <lon type="double">-117.0335</lon>
+      <lat type="double">38.03063889</lat>
+    </wp>
+    <wp n="7">
+      <type type="string">runway</type>
+      <approach type="bool">true</approach>
+      <ident type="string">14</ident>
+      <icao type="string">KTNX</icao>
+    </wp>
+  </route>
+</PropertyList>
