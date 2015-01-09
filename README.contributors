@@ -1,15 +1,13 @@
-This scenery is possible thanks to the contribution of several members of Flightgear community. Mention to the following
+This scenery is possible thanks to the contribution of several members of Flightgear community. Mention to the following:
 
-* Jabberwocky: Testing and directorial management.
+* Jabberwocky: Directorial management and testing.
+* IH-COL: Airport layout developing and 3D modelling and texturizing. Uploading files to terrasync, and GitHub maintaining.
+* Legoboy: STG file edition, static and shared models placement. FG route manager files for Janet Airlines routes.
+* KB7: OpenRadar developing and testing.
+* Firefly: 3D modelling, and testing.
+* F-36: 3D modelling, and testing.
 * Skyboat: Testing.
 * Michat: Testing.
-* KB7: OpenRadar developing and testing.
-* IH-COL: Airport layout developing and 3D modelling and texturizing. Uploading files to terrasync, and GitHub maintaining.
-* Firefly: 3D modelling
-* F-36: 3D modelling, and testing.
-* Legoboy: STG file edition, static and shared models placement. FG route manager files for Janet Airlines routes.
-
-We are looking for developers in the area of Route Development for Route Manager, and AI aircraft.
 
 IH-COL, 2014
 IH-COL, 2015
