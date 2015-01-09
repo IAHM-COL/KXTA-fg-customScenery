@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <version type="int">2</version>
+  <departure>
+    <airport type="string">KLAS</airport>
+    <runway type="string">01R</runway>
+  </departure>
+  <destination>
+    <airport type="string">KXTA</airport>
+    <runway type="string">32R</runway>
+  </destination>
+  <route>
+    <wp>
+      <type type="string">navaid</type>
+      <ident type="string">KLAS</ident>
+      <lon type="double">-115.1556985</lon>
+      <lat type="double">36.085178</lat>
+    </wp>
+    <wp n="1">
+      <type type="string">navaid</type>
+      <ident type="string">FIDOE</ident>
+      <lon type="double">-115.499125</lon>
+      <lat type="double">36.269844</lat>
+    </wp>
+    <wp n="2">
+      <type type="string">navaid</type>
+      <ident type="string">MCY</ident>
+      <lon type="double">-116.0275306</lon>
+      <lat type="double">36.6274556</lat>
+    </wp>
+    <wp n="3">
+      <type type="string">navaid</type>
+      <ident type="string">ABBIE</ident>
+      <lon type="double">-115.992222</lon>
+      <lat type="double">37.104722</lat>
+    </wp>
+    <wp n="4">
+      <type type="string">runway</type>
+      <approach type="bool">true</approach>
+      <ident type="string">32R</ident>
+      <icao type="string">KXTA</icao>
+    </wp>
+  </route>
+</PropertyList>
