@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>stratosphere-tower.ac</path>
+
+	<animation>
+		<name>StrobesOn</name>
+		<object-name>red-light.1</object-name>
+	</animation>
+
+	<animation>
+		<name>StrobesOff</name>
+		<object-name>red-light.2</object-name>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>StrobesOn</object-name>
+		<object-name>StrobesOff</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>timed</type>
+		<object-name>StrobesOn</object-name>
+		<object-name>StrobesOff</object-name>
+		<use-personality type="bool">true</use-personality>
+		<branch-duration-sec>
+			<random>
+				<min>0.9</min>
+				<max>1.1</max>
+			</random>
+		</branch-duration-sec>
+		<branch-duration-sec>
+			<random>
+				<min>0.9</min>
+				<max>1.1</max>
+			</random>
+		</branch-duration-sec>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>red-light.1</object-name>
+		<offset-m>351</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>351</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>red-light.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>red-light.1</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.2</dep></entry>
+			<entry><ind>500</ind><dep>0.4</dep></entry>
+			<entry><ind>16000</ind><dep>4</dep></entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>red-light.2</object-name>
+		<offset-m>351</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>351</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>red-light.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>red-light.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.8</dep></entry>
+			<entry><ind>500</ind><dep>1.6</dep></entry>
+			<entry><ind>16000</ind><dep>8</dep></entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>mast-red-lights</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>white-frame-lit</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>select</type>
+		<object-name>white-frame</object-name>
+		<condition>
+			<less-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</less-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>dish-2-lit</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>mast-lights-big</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>range</type>
+		<object-name>mast-lights-big</object-name>
+		<min-m>2000</min-m>
+		<max-m>50000</max-m>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>mast-top-lit</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>range</type>
+		<object-name>mast-top-lit</object-name>
+		<min-m>2000</min-m>
+		<max-m>50000</max-m>
+	</animation>
+
+	<animation>
+		<object-name>main-structure-lit</object-name>
+		<type>select</type>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+	<animation>
+		<object-name>main-structure</object-name>
+		<type>select</type>
+		<condition>
+			<less-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</less-than>
+		</condition>
+	</animation>
+
+
+
+	<animation>
+		<type>range</type>
+		<object-name>fences</object-name>
+		<min-m>0</min-m>
+		<max-m>1000</max-m>
+	</animation>
+	<animation>
+		<type>tower</type>
+		<object-name>tower</object-name>
+		<min-m>0</min-m>
+		<max-m>60000</max-m>
+	</animation>
+</PropertyList>
