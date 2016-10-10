@@ -17,6 +17,4 @@ Licenses
 *  The 3D objects and models are licensed under the terms of the GPLv2 or later.
   
 
-:copyright: 2016 IAHM-COL (2D, 3D, TerraGear) :copyright: 2016 J Maverick 16 (2D & 3D)
-
-
+:copyright: 2015 Jabberwocky. :copyright: 2014, 2015, 2016 IAHM-COL (2D, 3D, TerraGear) :copyright: 2016 J Maverick 16 (2D & 3D) :copyright: 2015 Legoboyvdlp (3D and more) :copyright: 2014 KB7 (OpenRadar)
