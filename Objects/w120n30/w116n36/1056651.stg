@@ -433,4 +433,8 @@ OBJECT_SHARED Models/Military/humvee-pickup-odrab-low-poly.xml -115.02715025 36.
 OBJECT_SHARED Models/Military/humvee-pickup-odrab-low-poly.xml -115.02709426 36.23545325 560.4028 46.5 0.0 -0.0
 OBJECT_SHARED Models/Transport/hatchback_silver.ac -115.02711975 36.23542971 560.3809 48.4 0.0 -0.0
 OBJECT_SHARED Models/Military/coleman-tow-tractor-odrab-low-poly.xml -115.03340112 36.22825782 556.9840 0.0 0.0 -0.0
-
+OBJECT_SHARED Models/Military/radar-shelter-mil.xml -115.04301171 36.23503874 563.3048 140.0 0.0 -0.0
+OBJECT_STATIC KINS/OPRF/fguk-board06.xml -115.04373704 36.23445460 563.2424 319.0 0.0 -0.0
+OBJECT_SHARED Models/Military/fuel-truck-medpoly.xml -115.04384355 36.23340276 562.3466 316.8 0.0 -0.0
+OBJECT_SHARED Models/Military/coleman-tow-tractor-odrab-low-poly.xml -115.04290921 36.23425614 562.8497 137.8 0.0 -0.0
+OBJECT_SHARED Models/AirBase/klsv-building-4.xml -115.04418971 36.23481897 563.2192 317.9 0.2 -0.6
