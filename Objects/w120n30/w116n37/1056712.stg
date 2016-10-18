@@ -225,3 +225,6 @@ OBJECT_SHARED Models/Airport/Vehicle/94-f600-fuel-yellow-hi.ac -115.81206672 37.
 #BAK12 arrestor cables added to RWY32R/14L as seen in the sattelite views
 OBJECT_SHARED Models/Airport/BAK12.xml -115.78654171 37.22218937 1367.8368 23.2
 OBJECT_SHARED Models/Airport/BAK12.xml -115.79785213 37.24364564 1358.1865 22.3
+
+#JMAV16
+OBJECT_SHARED Models/Military/us-hush-house-hangar-sand.xml -115.81085881 37.24498461 1357.1302 1.0 0.0 -0.0
